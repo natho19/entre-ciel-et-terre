@@ -1,4 +1,4 @@
-<!-- Start footer -->
+			<!-- Start footer -->
             <footer id="footer-container" class="jl_footer_act enable_footer_columns_dark">
 				<div class="footer-columns">
 					<div class="container">
@@ -27,7 +27,7 @@
 										<div class="jellywp_about_us_widget_wrapper">
 											<div class="link-widget">
 												<ul class="link-list-widget">
-													<li><a href="#">A propos</a></li>
+													<li><a href="http://localhost/entrecieletterre/a-propos/">A propos</a></li>
 													<li><a href="#">Blog</a></li>
 													<li><a href="#">Contact</a></li>
 													<li><a href="#">Rendez-vous</a></li>

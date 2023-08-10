@@ -1,44 +1,5 @@
 <?php get_header(); ?>
 
-            <div id="content_nav" class="jl_mobile_nav_wrapper">
-                <div id="nav" class="jl_mobile_nav_inner">
-                    <div class="menu_mobile_icons mobile_close_icons closed_menu"> <span class="jl_close_wapper"><span class="jl_close_1"></span><span class="jl_close_2"></span></span>
-                    </div>
-                    <ul id="mobile_menu_slide" class="menu_moble_slide">
-                        <li class="menu-item current-menu-item current_page_item">
-                            <a href="index.html">Accueil<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">A propos<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">Blog<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">Vidéos<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">Contact<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="#">Rendez-vous<span class="border-menu"></span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="search_form_menu_personal">
-                <div class="menu_mobile_large_close">
-                    <span class="jl_close_wapper search_form_menu_personal_click">
-                        <span class="jl_close_1"></span>
-                        <span class="jl_close_2"></span>
-                    </span>
-                </div>
-                <form method="get" class="searchform_theme" action="#">
-                    <input type="text" placeholder="Rechercher..." value="" name="s" class="search_btn" />
-                    <button type="submit" class="button"><i class="jli-search"></i></button>
-                </form>
-            </div>
-            <div class="mobile_menu_overlay"></div>
             <div class="jl_home_bw">
                 <section class="home_section5">
                     <div class="container">
