@@ -4,13 +4,8 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Title-->
-	<title>Entre Ciel Et Terre</title>
-
 	<!-- Favicon-->
 	<link rel="icon" href="<?= ECT_IMG_URL . 'favicon.png'; ?>" type="image/x-icon" />
-
     <!-- CSS -->
     <?php wp_head(); ?>
 </head>
