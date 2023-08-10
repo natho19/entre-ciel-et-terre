@@ -56,7 +56,7 @@
 								<div class="logo_small_wrapper_table">
 									<div class="logo_small_wrapper">
 										<a class="logo_link" href="index.html">
-											<img class="jl_logo_n" src="<?= ECT_IMG_URL . 'logo.jpg'; ?>" alt="Logo" />
+											<img class="jl_logo_n" src="<?= ECT_IMG_URL . 'logo.jpg   '; ?>" alt="Logo" />
 										</a>
 									</div>
 								</div>
@@ -95,8 +95,8 @@
 									</div>
 									<div class="select-dropdown">
 										<select class="select">
-											<option value="fr" selected>FR</option>
-											<option value="eng">EN</option>
+											<option value="fr" selected>Français</option>
+											<option value="eng">English</option>
 										</select>
 									</div>
 								</div>
