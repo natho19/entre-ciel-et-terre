@@ -72,7 +72,6 @@
                                     &copy; Copyright 2023 Entre Ciel Et Terre par GladiArt et Code House
 									<ul id="menu-footer-menu" class="menu-footer">
 										<li class="menu-item menu-item-7"><a title="" href="#">Politique de confidentialité</a></li>
-										<li class="menu-item menu-item-8"> <a title="" href="#">Forum</a></li>
 									</ul>
 								</div>
 							</div>

@@ -23,9 +23,6 @@
 										<li class="menu-item">
                                             <a href="#">Politique de confidentialité<span class="border-menu"></span></a>
 										</li>
-                                        <li class="menu-item">
-                                            <a href="#">Forum<span class="border-menu"></span></a>
-										</li>
 									</ul>
 								</div>
 								<div class="jl_top_cus_social">

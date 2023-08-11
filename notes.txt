@@ -1,0 +1,5 @@
+- 8 articles par page
+- Les différents réseaux sociaux : TikTok, Facebook, Instagram, Youtube, Twitter, Linkedin, WhatsApp
+
+TODO :
+- Enlever Forum ✅
