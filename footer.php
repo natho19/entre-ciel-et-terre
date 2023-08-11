@@ -28,7 +28,7 @@
 											<div class="link-widget">
 												<ul class="link-list-widget">
 													<li><a href="http://localhost/entrecieletterre/a-propos/">A propos</a></li>
-													<li><a href="#">Blog</a></li>
+													<li><a href="http://localhost/entrecieletterre/blog">Blog</a></li>
 													<li><a href="#">Contact</a></li>
 													<li><a href="#">Rendez-vous</a></li>
 												</ul>

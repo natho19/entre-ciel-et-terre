@@ -1,13 +1,13 @@
 <?php get_header(); ?>
 
-<div class="jl_single_style3">
+<!-- <div class="jl_single_style3">
     <div class="single_content_header single_captions_overlay_image_full_width">
         <div class="image-post-thumb" style="background-image: url('<?= ECT_IMG_URL . '1920x800.png' ?>')"></div>
         <div class="single_post_entry_content"> 
             <h1 class="single_post_title_main">A propos</h1>
         </div>
     </div>
-</div>
+</div> -->
 
 <section id="content_main" class="clearfix jl_spost">
     <div class="container">
@@ -19,17 +19,18 @@
                         <div class="single_section_content box blog_large_post_style">
                             <div class="post_content_w">
                                 <div class="post_content jl_content">
-                                    <h3>Find the best tour for this summer</h3>
-                                    <p>Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Suspendisse vulputate porttitor condimentum. <a href="#">Proin viverra orci a leo suscipit placerat</a>. Sed feugiat posuere semper. Cras vitae mi erat, posuere mollis arcu. Pellentesque iaculis gravida nulla ac hendrerit. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis.&nbsp;</p>
-                                    <h3>Find the best tour for this summer</h3>
-                                    <p>Pellentesque iaculis gravida <a href="#">nulla ac hendrerit</a>. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis, lacus in malesuada pellentesque, nisl ipsum faucibus velit, et eleifend velit nulla a mi. Praesent pharetra semper purus, a vehicula massa interdum in.</p>
+                                    <h3>A propos</h3>
+                                    <p>Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Suspendisse vulputate porttitor condimentum. Sed feugiat posuere semper. Cras vitae mi erat, posuere mollis arcu. Pellentesque iaculis gravida nulla ac hendrerit. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis.&nbsp;</p>
+                                    <h3>Notre histoire</h3>
+                                    <p>Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Suspendisse vulputate porttitor condimentum. Sed feugiat posuere semper. Cras vitae mi erat, posuere mollis arcu. Pellentesque iaculis gravida nulla ac hendrerit. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis.&nbsp;</p>
+                                    <h3>Notre vision</h3>
+                                    <p>Pellentesque iaculis gravida. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis, lacus in malesuada pellentesque, nisl ipsum faucibus velit, et eleifend velit nulla a mi. Praesent pharetra semper purus, a vehicula massa interdum in.</p>
                                     <ul>
                                         <li>Nisl ipsum faucibus velit, et eleifend velit nulla</li>
                                         <li>Venenatis&nbsp;<em>sint occaecat</em>&nbsp;cupidatat non proident.</li>
                                         <li>Praesent pharetra semper purus&nbsp;accusamus et iusto&nbsp;odio.</li>
                                         <li>Cras vitae mi erat, posuere mollis arcu</li>
                                     </ul>
-                                    <p>Pellentesque iaculis gravida nulla ac hendrerit. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis, lacus in malesuada pellentesque, <a href="#">nisl ipsum faucibus velit</a>, et eleifend velit nulla a mi. Praesent pharetra semper purus, a vehicula massa interdum in.</p>
                                 </div>
                             </div>
                         </div>
@@ -40,6 +41,18 @@
             </div>
             <div class="col-md-4" id="sidebar">
                 <div class="jl_sidebar_w">
+                <div id="sprasa_ads300x250_widget-2" class="widget jellywp_ads300x250_widget">
+                        <div class="widget_jl_wrapper ads_widget_container">
+                            <div class="widget-title">
+                                <h2 class="jl_title_c">Advertisement</h2>
+                            </div>
+                            <div class="advertisement">
+                                <a href="#">
+                                    <img src="<?= ECT_IMG_URL . '400x400.png' ?>" alt="Image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                     <div id="sprasa_widget_social_counter_c-2" class="widget jl-widget-social-counter">
                         <div class="widget-title">
                             <h2 class="jl_title_c">Stay Connected</h2>
@@ -141,18 +154,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div id="sprasa_ads300x250_widget-2" class="widget jellywp_ads300x250_widget">
-                        <div class="widget_jl_wrapper ads_widget_container">
-                            <div class="widget-title">
-                                <h2 class="jl_title_c">Advertisement</h2>
-                            </div>
-                            <div class="ads300x250-thumb jl_radus_e">
-                                <a href="#">
-                                    <img src="img/380x380.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
             </div>
         </div>

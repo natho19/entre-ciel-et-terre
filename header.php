@@ -64,7 +64,7 @@
                                             <a href="http://localhost/entrecieletterre/a-propos/">A propos<span class="border-menu"></span></a>
 										</li>
 										<li class="menu-item">
-                                            <a href="#">Blog<span class="border-menu"></span></a>
+                                            <a href="http://localhost/entrecieletterre/blog/">Blog<span class="border-menu"></span></a>
 										</li>
                                         <li class="menu-item">
                                             <a href="#">Vidéos<span class="border-menu"></span></a>
@@ -106,13 +106,13 @@
                     </div>
                     <ul id="mobile_menu_slide" class="menu_moble_slide">
                         <li class="menu-item current-menu-item current_page_item">
-                            <a href="index.html">Accueil<span class="border-menu"></span></a>
+                            <a href="http://localhost/entrecieletterre/">Accueil<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
-                            <a href="#">A propos<span class="border-menu"></span></a>
+                            <a href="http://localhost/entrecieletterre/a-propos/">A propos<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
-                            <a href="#">Blog<span class="border-menu"></span></a>
+                            <a href="http://localhost/entrecieletterre/blog/">Blog<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
                             <a href="#">Vidéos<span class="border-menu"></span></a>
