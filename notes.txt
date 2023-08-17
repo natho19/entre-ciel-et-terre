@@ -2,10 +2,6 @@ Notes :
 - Les différents réseaux sociaux : TikTok, Facebook, Instagram, Youtube, Twitter, Linkedin, WhatsApp
 
 TODO :
-- Enlever Forum ✅
-- Page 404 ✅
-- Page Vidéos ✅
-- Page Contact ✅
-- Single page
 - Lien lire toutes les vidéos
 - Lien voir tous les articles
+- Code review
