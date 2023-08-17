@@ -1,5 +1,9 @@
-- 8 articles par page
+Notes :
 - Les différents réseaux sociaux : TikTok, Facebook, Instagram, Youtube, Twitter, Linkedin, WhatsApp
 
 TODO :
 - Enlever Forum ✅
+- Page 404
+- Page Vidéos
+- Page Contact
+- Single page

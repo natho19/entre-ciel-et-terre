@@ -6,7 +6,6 @@
             <div class="col-md-8 grid-sidebar" id="content">
                 <div class="jl_cat_mid_title">
                     <h3 class="categories-title title">Blog</h3>
-                    <p>Etiam vitae dapibus rhoncus. Eget etiam aenean nisi montes felis pretium donec veni. Pede vidi condimentum et aenean hendrerit. Quis sem justo nisi varius tincidunt nec aliquam arcu tempus vel laoreet lorem.</p>
                 </div>
                 <div class="jl_wrapper_cat">
                     <div id="content_masonry" class="jl_cgrid pagination_infinite_style_cat load_more_main_wrapper">

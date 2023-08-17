@@ -64,7 +64,7 @@
                                             <a href="http://localhost/entrecieletterre/blog/">Blog<span class="border-menu"></span></a>
 										</li>
                                         <li class="menu-item">
-                                            <a href="#">Vidéos<span class="border-menu"></span></a>
+                                            <a href="http://localhost/entrecieletterre/videos/">Vidéos<span class="border-menu"></span></a>
 										</li>
                                         <li class="menu-item">
                                             <a href="#">Contact<span class="border-menu"></span></a>
@@ -112,7 +112,7 @@
                             <a href="http://localhost/entrecieletterre/blog/">Blog<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
-                            <a href="#">Vidéos<span class="border-menu"></span></a>
+                            <a href="http://localhost/entrecieletterre/videos/">Vidéos<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
                             <a href="#">Contact<span class="border-menu"></span></a>
