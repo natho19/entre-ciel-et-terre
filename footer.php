@@ -30,7 +30,7 @@
 													<li><a href="http://localhost/entrecieletterre/a-propos/">A propos</a></li>
 													<li><a href="http://localhost/entrecieletterre/blog">Blog</a></li>
 													<li><a href="http://localhost/entrecieletterre/videos/">Vidéos</a></li>
-													<li><a href="#">Contact</a></li>
+													<li><a href="http://localhost/entrecieletterre/contact/">Contact</a></li>
 													<li><a href="#">Rendez-vous</a></li>
 												</ul>
 											</div>

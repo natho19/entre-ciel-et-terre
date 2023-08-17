@@ -4700,9 +4700,9 @@ Form
 #content .col-md-4, .comment-form-author, .comment-form-email, .comment-form-url{
     width: 33.33333333%;
 }
-.form-fields.row input{
+/* .form-fields.row input{
     margin-bottom: 0px !important;
-}
+} */
 .comment-form-comment{
     margin-bottom: 0px;
 }
@@ -11836,8 +11836,12 @@ p.notfound_p_text{
 Blog large layout with sidebar
 -------------------------------------------------------------------------------------*/
 
+.loop-large-post {
+    margin-bottom: 50px;
+}
+
 .loop-large-post .box {
-    margin-bottom: 50px !important;
+    /* margin-bottom: 50px !important; */
     width: 100%;
     display: inline-block;
     vertical-align: top;

@@ -20,7 +20,7 @@
                                     <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
                                     <span class="jl_post_meta">
                                         <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins read</span>
+                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                     </span>
                                     <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet....</p>
                                 </div>
@@ -37,7 +37,7 @@
                                     <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
                                     <span class="jl_post_meta">
                                         <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins read</span>
+                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                     </span>
                                     <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet....</p>
                                 </div>
@@ -54,7 +54,7 @@
                                     <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
                                     <span class="jl_post_meta">
                                         <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins read</span>
+                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                     </span>
                                     <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet....</p>
                                 </div>
@@ -71,7 +71,7 @@
                                     <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
                                     <span class="jl_post_meta">
                                         <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins read</span>
+                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                     </span>
                                     <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet....</p>
                                 </div>
@@ -88,7 +88,7 @@
                                     <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
                                     <span class="jl_post_meta">
                                         <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins read</span>
+                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                     </span>
                                     <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet....</p>
                                 </div>
@@ -105,7 +105,7 @@
                                     <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
                                     <span class="jl_post_meta">
                                         <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins read</span>
+                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                     </span>
                                     <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet....</p>
                                 </div>

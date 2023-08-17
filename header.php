@@ -67,7 +67,7 @@
                                             <a href="http://localhost/entrecieletterre/videos/">Vidéos<span class="border-menu"></span></a>
 										</li>
                                         <li class="menu-item">
-                                            <a href="#">Contact<span class="border-menu"></span></a>
+                                            <a href="http://localhost/entrecieletterre/contact/">Contact<span class="border-menu"></span></a>
 										</li>
                                         <li class="menu-item">
                                             <a href="#">Rendez-vous<span class="border-menu"></span></a>
@@ -115,7 +115,7 @@
                             <a href="http://localhost/entrecieletterre/videos/">Vidéos<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
-                            <a href="#">Contact<span class="border-menu"></span></a>
+                            <a href="http://localhost/entrecieletterre/contact/">Contact<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
                             <a href="#">Rendez-vous<span class="border-menu"></span></a>

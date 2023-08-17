@@ -18,7 +18,7 @@
                     <div class="post-2963 post type-post status-publish format-standard has-post-thumbnail hentry category-science tag-gaming" id="post-2963">
                         <div class="single_section_content box blog_large_post_style">
                             <div class="post_content_w">
-                                <div class="post_content jl_content">
+                                <div class="jl_content">
                                     <h3>A propos</h3>
                                     <p>Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Suspendisse vulputate porttitor condimentum. Sed feugiat posuere semper. Cras vitae mi erat, posuere mollis arcu. Pellentesque iaculis gravida nulla ac hendrerit. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis.&nbsp;</p>
                                     <h3>Notre histoire</h3>
@@ -36,7 +36,6 @@
                         </div>
                     </div>
                     <!-- end post -->
-                    <div class="brack_space"></div>
                 </div>
             </div>
             <?php get_template_part('parts/page', 'sidebar'); ?>

@@ -3,7 +3,9 @@ Notes :
 
 TODO :
 - Enlever Forum ✅
-- Page 404
-- Page Vidéos
-- Page Contact
+- Page 404 ✅
+- Page Vidéos ✅
+- Page Contact ✅
 - Single page
+- Lien lire toutes les vidéos
+- Lien voir tous les articles
