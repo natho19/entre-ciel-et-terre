@@ -69,9 +69,8 @@
                             <div class="jl_m_right_content">
                                 <h2 class="entry-title"> <a href="#" tabindex="-1">This place really good place for reading</a></h2>
                                 <span class="jl_post_meta">
-                                    <span class="post-date">
-                                        <i class="jli-pen"></i>July 24, 2016
-                                    </span>
+                                    <span class="post-date"><i class="jli-pen"></i>July 24, 2016</span>
+                                    <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                 </span>
                             </div>
                         </div>
@@ -86,9 +85,8 @@
                             <div class="jl_m_right_content">
                                 <h2 class="entry-title"> <a href="#" tabindex="-1">This place really good place for reading</a></h2>
                                 <span class="jl_post_meta">
-                                    <span class="post-date">
-                                        <i class="jli-pen"></i>July 24, 2016
-                                    </span>
+                                    <span class="post-date"><i class="jli-pen"></i>July 24, 2016</span>
+                                    <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                 </span>
                             </div>
                         </div>
@@ -103,9 +101,8 @@
                             <div class="jl_m_right_content">
                                 <h2 class="entry-title"> <a href="#" tabindex="-1">This place really good place for reading</a></h2>
                                 <span class="jl_post_meta">
-                                    <span class="post-date">
-                                        <i class="jli-pen"></i>July 24, 2016
-                                    </span>
+                                    <span class="post-date"><i class="jli-pen"></i>July 24, 2016</span>
+                                    <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                 </span>
                             </div>
                         </div>

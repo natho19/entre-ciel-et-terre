@@ -39,7 +39,6 @@
                     <div class="brack_space"></div>
                 </div>
             </div>
-            <!-- Code here -->
             <?php get_template_part('parts/page', 'sidebar'); ?>
         </div>
     </div>
