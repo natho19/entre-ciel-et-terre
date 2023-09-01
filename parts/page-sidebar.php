@@ -12,7 +12,7 @@
                 </div>
             </div>
         </div>
-        <div id="sprasa_widget_social_counter_c-2" class="widget jl-widget-social-counter">
+        <!-- <div id="sprasa_widget_social_counter_c-2" class="widget jl-widget-social-counter">
             <div class="widget-title">
                 <h2 class="jl_title_c">Resté connecté</h2>
             </div>
@@ -50,7 +50,7 @@
                     <span class="jlsocial-element-right">followers</span>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div id="sprasa_recent_post_text_widget-9" class="widget post_list_widget">
             <div class="widget_jl_wrapper">
                 <div class="ettitle">

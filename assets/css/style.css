@@ -19174,3 +19174,15 @@ footer .widget .link-list-widget {
 .advertisement img {
     border-radius: 5px;
 }
+.svg-icon {
+    margin-left: 2px !important;
+}
+
+.img-to-adjust {
+    margin-left: 4px;
+}
+
+.svg-icon img {
+    height: 25px;
+    margin-bottom: 2.5px;
+}
