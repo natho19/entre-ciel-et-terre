@@ -33,8 +33,16 @@
 											<li><a href="#" target="_blank"><i class="jli-instagram"></i></a></li>
 											<li><a href="#" target="_blank"><i class="jli-twitter"></i></a></li>
 											<li><a href="#" target="_blank"><i class="jli-linkedin"></i></a></li>
-											<li class="svg-icon"><a href="#" target="_blank"><img class="img-to-adjust" src="<?= ECT_IMG_URL . 'tiktok.svg   '; ?>" alt="Tiktok"></a></li>
-											<li class="svg-icon"><a href="#" target="_blank"><img src="<?= ECT_IMG_URL . 'whatsapp.svg   '; ?>" alt="Whatsapp"></a></li>
+											<li class="header-svg-icon">
+												<a href="#" target="_blank">
+													<img class="img-to-adjust" src="<?= ECT_IMG_URL . 'tiktok.svg'; ?>" alt="Tiktok">
+												</a>
+											</li>
+											<li class="header-svg-icon">
+												<a href="#" target="_blank">
+													<img src="<?= ECT_IMG_URL . 'whatsapp.svg   '; ?>" alt="Whatsapp">
+												</a>
+											</li>
 										</ul>
 									</div>
 								</div>

@@ -54,6 +54,16 @@
 															<li><a href="#" class="instagram" target="_blank"><i class="jli-instagram"></i></a></li>
 															<li><a href="#" class="twitter" target="_blank"><i class="jli-twitter"></i></a></li>
 															<li><a href="#" class="linkedin" target="_blank"><i class="jli-linkedin"></i></a></li>
+															<li>
+																<a href="#" class="footer-svg-icon" target="_blank">
+																	<img src="<?= ECT_IMG_URL . 'tiktok.svg'; ?>" alt="Tiktok">
+																</a>
+															</li>
+															<li>
+																<a href="#" class="footer-svg-icon" target="_blank">
+																	<img src="<?= ECT_IMG_URL . 'whatsapp.svg'; ?>" alt="Whatsapp">
+																</a>
+															</li>
 														</ul>
 													</div>
 												</div>
@@ -70,7 +80,7 @@
 						<div class="row bottom_footer_menu_text">
 							<div class="col-md-12">
 								<div class="jl_ft_w">
-                                    &copy; Copyright 2023 Entre Ciel Et Terre par GladiArt et Code House
+                                    &copy; Copyright 2023 Entre Ciel Et Terre par Code House
 									<ul id="menu-footer-menu" class="menu-footer">
 										<li class="menu-item menu-item-7"><a title="" href="#">Politique de confidentialité</a></li>
 									</ul>

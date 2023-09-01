@@ -19174,7 +19174,7 @@ footer .widget .link-list-widget {
 .advertisement img {
     border-radius: 5px;
 }
-.svg-icon {
+.header-svg-icon {
     margin-left: 2px !important;
 }
 
@@ -19182,7 +19182,11 @@ footer .widget .link-list-widget {
     margin-left: 4px;
 }
 
-.svg-icon img {
+.header-svg-icon img {
     height: 25px;
     margin-bottom: 2.5px;
+}
+
+.footer-svg-icon img {
+    height: 18px;
 }

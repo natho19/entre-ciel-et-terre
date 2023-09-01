@@ -1,7 +1,6 @@
 Notes :
-- Les différents réseaux sociaux : TikTok, Facebook, Instagram, Youtube, Twitter, Linkedin, WhatsApp
 
 TODO :
+- Liens vers les différents réseaux sociaux ✅
 - Lien lire toutes les vidéos
 - Lien voir tous les articles
-- Code review
