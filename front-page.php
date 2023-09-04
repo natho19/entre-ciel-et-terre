@@ -263,6 +263,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="link-area link-area-videos">
+                        <a href="http://localhost/entrecieletterre/videos/">Toutes les vidéos</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -392,6 +395,9 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="link-area link-area-posts">
+                                    <a href="http://localhost/entrecieletterre/blog/">Tous les articles</a>
+                                </div>
                         </div>
                     </div>
                 </div>

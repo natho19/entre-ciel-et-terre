@@ -80,7 +80,7 @@
 						<div class="row bottom_footer_menu_text">
 							<div class="col-md-12">
 								<div class="jl_ft_w">
-                                    &copy; Copyright 2023 Entre Ciel Et Terre par Code House
+                                    &copy; Copyright 2023 Entre Ciel Et Terre by Code House
 									<ul id="menu-footer-menu" class="menu-footer">
 										<li class="menu-item menu-item-7"><a title="" href="#">Politique de confidentialité</a></li>
 									</ul>

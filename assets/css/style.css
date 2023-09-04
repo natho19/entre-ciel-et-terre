@@ -19190,3 +19190,36 @@ footer .widget .link-list-widget {
 .footer-svg-icon img {
     height: 18px;
 }
+
+.link-area-videos {
+    margin-top: 40px;
+}
+
+.link-area-posts {
+    margin-bottom: 40px;
+}
+
+.link-area {
+    text-align: center;
+}
+
+.link-area a {
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    line-height: 40px;
+    font-size: 14px;
+    text-transform: capitalize;
+    padding: 0px 30px;
+    border-radius: 5px;
+    transition: .25s;
+    border: 0px;
+    outline: none;
+}
+
+.link-area a:hover {
+    background: var(--main-color);
+    color: #fff !important;
+}

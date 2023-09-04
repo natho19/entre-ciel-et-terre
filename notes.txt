@@ -2,5 +2,5 @@ Notes :
 
 TODO :
 - Liens vers les différents réseaux sociaux ✅
-- Lien lire toutes les vidéos
-- Lien voir tous les articles
+- Lien lire toutes les vidéos ✅
+- Lien voir tous les articles ✅
