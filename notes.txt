@@ -7,3 +7,31 @@ TODO :
 - Dynamic Videos
 - Dynamic Single
 - Rajouter les vrais contenus
+- Temps de lecture sur les posts
+
+
+<?php 
+    $other_posts = get_field('other_posts'); 
+    if ($other_posts) : ?>
+        <?php foreach ($other_posts as $post) : setup_postdata($post); ?>
+        <!-- Other posts -->
+            <div class="jl_mg_sm">
+                <div class="jl_mg_sm_w">
+                    <div class="jl_f_img jl_radus_e">
+                        <a href="#">
+                            <img src="<?= ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="jl_mg_content">
+                        <h3 class="entry-title">
+                            <a href="#"><?php the_title(); ?></a>
+                        </h3>
+                        <span class="jl_post_meta">
+                            <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
+                            <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        <?php endforeach; ?>
+    <?php endif; ?>

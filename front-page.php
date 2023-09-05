@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<?php var_dump($post); ?>
+
 <div class="jl_home_bw">
     <?php if (have_rows('slides')) : ?>
         <section class="home_section5">
@@ -46,99 +48,61 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="jl_sec_title">
-                        <h3 class="jl_title_c">Actualités</h3>
+                        <h3 class="jl_title_c"><?php the_field('news_title'); ?></h3>
                     </div>
                     <div class="jl_mg_wrapper jl_clear_at">
                         <div class="jl_mg_post jl_clear_at">
-                            <div class="jl_mg_main">
-                                <div class="jl_mg_main_w">
-                                    <div class="jl_img_box jl_radus_e">
-                                        <a href="#">
-                                            <img src="<?= ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="" loading="lazy">
-                                        </a>
-                                    </div>
-                                    <div class="text-box">
-                                        <h3 class="entry-title">
-                                            <a href="#" tabindex="-1">Your phone can take the best quality photo &amp; Style</a>
-                                        </h3>
-                                        <span class="jl_post_meta">
-                                            <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                            <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
-                                        </span>
-                                        <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. Suspendisse vulputate porttitor condimentum. Proin viverra orci...</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="jl_mg_sm">
-                                <div class="jl_mg_sm_w">
-                                    <div class="jl_f_img jl_radus_e">
-                                        <a href="#">
-                                            <img src="<?= ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="" loading="lazy">
-                                        </a>
-                                    </div>
-                                    <div class="jl_mg_content">
-                                        <h3 class="entry-title">
-                                            <a href="#">The dress style influencers are wearing right now</a>
-                                        </h3>
-                                        <span class="jl_post_meta">
-                                            <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                            <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
-                                        </span>
+                            <!-- Featured post -->
+                            <?php
+                            $post = get_field('featured_post');
+                            if ($post) : ?>
+                                <div class="jl_mg_main">
+                                    <div class="jl_mg_main_w">
+                                        <div class="jl_img_box jl_radus_e">
+                                            <a href="<?php the_permalink(); ?>">
+                                                <img src="<?= has_post_thumbnail() ? get_the_post_thumbnail_url(get_the_ID(), 'full') : ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="<?php the_title(); ?>" loading="lazy">
+                                            </a>
+                                        </div>
+                                        <div class="text-box">
+                                            <h3 class="entry-title">
+                                                <a href="<?php the_permalink(); ?>" tabindex="-1"><?php the_title(); ?></a>
+                                            </h3>
+                                            <span class="jl_post_meta">
+                                                <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
+                                                <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
+                                            </span>
+                                            <?php the_excerpt(); ?>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="jl_mg_sm">
-                                <div class="jl_mg_sm_w">
-                                    <div class="jl_f_img jl_radus_e">
-                                        <a href="#">
-                                            <img src="<?= ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="" loading="lazy">
-                                        </a>
-                                    </div>
-                                    <div class="jl_mg_content">
-                                        <h3 class="entry-title">
-                                            <a href="#">It really great holiday and enjoy with the sea</a>
-                                        </h3>
-                                        <span class="jl_post_meta">
-                                            <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                            <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="jl_mg_sm">
-                                <div class="jl_mg_sm_w">
-                                    <div class="jl_f_img jl_radus_e">
-                                        <a href="#">
-                                            <img src="<?= ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="" loading="lazy">
-                                        </a>
-                                    </div>
-                                    <div class="jl_mg_content">
-                                        <h3 class="entry-title">
-                                            <a href="#">This is the best camera for short minimal style</a>
-                                        </h3>
-                                        <span class="jl_post_meta">
-                                            <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                            <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="jl_mg_sm">
-                                <div class="jl_mg_sm_w">
-                                    <div class="jl_f_img jl_radus_e">
-                                        <a href="#">
-                                            <img src="<?= ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="" loading="lazy">
-                                        </a>
-                                    </div>
-                                    <div class="jl_mg_content">
-                                        <h3 class="entry-title"><a href="#">This is my favourite fashion that i watching</a></h3>
-                                        <span class="jl_post_meta">
-                                            <span class="post-date"><i class="jli-pen"></i>11 Jul 2023</span>
-                                            <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
+                            <?php wp_reset_postdata(); endif; ?>
+
+                            <?php if (have_rows('other_posts')) : ?>
+                                <?php while (have_rows('other_posts')) : the_row(); ?>
+                                    <!-- Other posts -->
+                                    <?php $post = get_sub_field('post');
+                                    if ($post) : ?>
+                                        <div class="jl_mg_sm">
+                                            <div class="jl_mg_sm_w">
+                                                <div class="jl_f_img jl_radus_e">
+                                                    <a href="<?php the_permalink(); ?>">
+                                                        <img src="<?= has_post_thumbnail() ? get_the_post_thumbnail_url(get_the_ID(), 'full') : ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="" loading="lazy">
+                                                    </a>
+                                                </div>
+                                                <div class="jl_mg_content">
+                                                    <h3 class="entry-title">
+                                                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                                    </h3>
+                                                    <span class="jl_post_meta">
+                                                        <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
+                                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php wp_reset_postdata(); endif; ?>
+                                <?php endwhile; ?>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
