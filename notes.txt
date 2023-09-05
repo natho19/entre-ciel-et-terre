@@ -1,6 +1,9 @@
 Notes :
 
 TODO :
-- Liens vers les différents réseaux sociaux ✅
-- Lien lire toutes les vidéos ✅
-- Lien voir tous les articles ✅
+- Dynamic Homepage
+- Dynamic A propos
+- Dynamic Blog
+- Dynamic Videos
+- Dynamic Single
+- Rajouter les vrais contenus

@@ -1,60 +1,34 @@
 <?php get_header(); ?>
 
 <div class="jl_home_bw">
-    <section class="home_section5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="blockid_5ee403b" class="block-section jl-main-block">
-                        <div class="jl_slide_wrap_f jl_clear_at">
-                            <div class="jl-roww content-inner jl-col-none jl-col-row">
-                                <div class="jl_ar_top">
-                                    <div class="jl-w-slider jl_full_feature_w">
-                                        <div class="jl-eb-slider jelly_loading_pro" data-arrows="true" data-play="true" data-effect="false" data-speed="500" data-autospeed="7000" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="1" data-lg-items="1" data-xl-items="1">
-                                            <div class="item-slide jl_radus_e">
-                                                <div class="slide-inner">
-                                                    <div class="jl_full_feature">
-                                                        <div class="jl_f_img_bg" style="background-image: url('<?= ECT_IMG_URL . '1920x800.png' ?>')"></div>
-                                                        <a href="#" class="jl_f_img_link"></a>
-                                                        <div class="jl_f_postbox">
-                                                            <h3 class="jl_f_title">
-                                                                <a href="#" tabindex="-1">
-                                                                    Outdoor photo shooting with sexy and beautiful
-                                                                </a>
-                                                            </h3>
+    <?php if (have_rows('slides')) : ?>
+        <section class="home_section5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="blockid_5ee403b" class="block-section jl-main-block">
+                            <div class="jl_slide_wrap_f jl_clear_at">
+                                <div class="jl-roww content-inner jl-col-none jl-col-row">
+                                    <div class="jl_ar_top">
+                                        <div class="jl-w-slider jl_full_feature_w">
+                                            <div class="jl-eb-slider jelly_loading_pro" data-arrows="true" data-play="true" data-effect="false" data-speed="500" data-autospeed="7000" data-loop="true" data-dots="true" data-swipe="true" data-items="1" data-xs-items="1" data-sm-items="1" data-md-items="1" data-lg-items="1" data-xl-items="1">
+                                                <?php while (have_rows('slides')) : the_row(); ?>
+                                                    <div class="item-slide jl_radus_e">
+                                                        <div class="slide-inner">
+                                                            <div class="jl_full_feature">
+                                                                <div class="jl_f_img_bg" style="background-image: url('<?= esc_url(get_sub_field('image')); ?>')"></div>
+                                                                <a href="<?= esc_url(get_sub_field('link')); ?>" class="jl_f_img_link"></a>
+                                                                <div class="jl_f_postbox">
+                                                                    <h3 class="jl_f_title">
+                                                                        <a href="<?= esc_url(get_sub_field('link')); ?>" tabindex="-1">
+                                                                            <?php the_sub_field('description'); ?>
+                                                                        </a>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
-                                            <div class="item-slide jl_radus_e">
-                                                <div class="slide-inner">
-                                                    <div class="jl_full_feature">
-                                                        <div class="jl_f_img_bg" style="background-image: url('<?= ECT_IMG_URL . '1920x800.png'; ?>')"></div>
-                                                        <a href="#" class="jl_f_img_link"></a>
-                                                        <div class="jl_f_postbox">
-                                                            <h3 class="jl_f_title">
-                                                                <a href="#" tabindex="-1">
-                                                                    Outdoor photo shooting with sexy and beautiful
-                                                                </a>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="item-slide jl_radus_e">
-                                                <div class="slide-inner">
-                                                    <div class="jl_full_feature">
-                                                        <div class="jl_f_img_bg" style="background-image: url('<?= ECT_IMG_URL . '1920x800.png' ?>')"></div>
-                                                        <a href="#" class="jl_f_img_link"></a>
-                                                        <div class="jl_f_postbox">
-                                                            <h3 class="jl_f_title">
-                                                                <a href="#" tabindex="-1">
-                                                                    Outdoor photo shooting with sexy and beautiful
-                                                                </a>
-                                                            </h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <?php endwhile; ?>
                                             </div>
                                         </div>
                                     </div>
@@ -64,8 +38,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    <?php endif; ?>
+
     <section class="home_section3">
         <div class="container">
             <div class="row">
@@ -170,6 +145,7 @@
             </div>
         </div>
     </section>
+
     <section class="home_section1">
         <div class="container">
             <div class="row">
@@ -270,6 +246,7 @@
             </div>
         </div>
     </section>
+
     <section class="home_section2">
         <div class="container">
             <div class="row">
