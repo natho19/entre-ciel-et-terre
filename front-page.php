@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-<?php var_dump($post); ?>
-
 <div class="jl_home_bw">
     <?php if (have_rows('slides')) : ?>
         <section class="home_section5">
@@ -105,6 +103,11 @@
                             <?php endif; ?>
                         </div>
                     </div>
+                    <?php if (get_field('more_news')) : ?>
+                        <div class="link-area link-area-news">
+                            <a href="<?= esc_url(get_field('more_news')['url']); ?>"><?= esc_html(get_field('more_news')['title']); ?></a>
+                        </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -336,9 +339,10 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="link-area link-area-posts">
-                                    <a href="http://localhost/entrecieletterre/blog/">Tous les articles</a>
-                                </div>
+                                <a href="http://localhost/entrecieletterre/blog/">Tous les articles</a>
+                            </div>
                         </div>
                     </div>
                 </div>
