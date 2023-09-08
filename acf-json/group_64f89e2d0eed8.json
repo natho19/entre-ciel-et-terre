@@ -1,11 +1,11 @@
 {
-    "key": "group_64f7442eb0be6",
-    "title": "Actualités",
+    "key": "group_64f89e2d0eed8",
+    "title": "Vidéos",
     "fields": [
         {
-            "key": "field_64f7442e6115e",
+            "key": "field_64f89e2d16879",
             "label": "Titre de la section",
-            "name": "news_title",
+            "name": "videos_title",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -23,9 +23,9 @@
             "append": ""
         },
         {
-            "key": "field_64f89abcdfd44",
+            "key": "field_64f89e2d18704",
             "label": "Lien voir plus",
-            "name": "more_news",
+            "name": "more_videos",
             "aria-label": "",
             "type": "link",
             "instructions": "",
@@ -39,9 +39,9 @@
             "return_format": "array"
         },
         {
-            "key": "field_64f74498df251",
-            "label": "Article à la une",
-            "name": "featured_post",
+            "key": "field_64f89e2d1a754",
+            "label": "Vidéo à la une",
+            "name": "featured_video",
             "aria-label": "",
             "type": "post_object",
             "instructions": "",
@@ -56,7 +56,7 @@
                 "post"
             ],
             "taxonomy": [
-                "category:blog"
+                "category:videos"
             ],
             "return_format": "object",
             "multiple": 0,
@@ -64,9 +64,9 @@
             "ui": 1
         },
         {
-            "key": "field_64f7451adf252",
-            "label": "Autres articles",
-            "name": "other_posts",
+            "key": "field_64f89e2d1c810",
+            "label": "Autres vidéos",
+            "name": "other_videos",
             "aria-label": "",
             "type": "repeater",
             "instructions": "",
@@ -86,9 +86,9 @@
             "rows_per_page": 20,
             "sub_fields": [
                 {
-                    "key": "field_64f7453bdf253",
-                    "label": "Article",
-                    "name": "post",
+                    "key": "field_64f89e2d2ef75",
+                    "label": "Vidéo",
+                    "name": "video",
                     "aria-label": "",
                     "type": "post_object",
                     "instructions": "",
@@ -103,13 +103,13 @@
                         "post"
                     ],
                     "taxonomy": [
-                        "category:blog"
+                        "category:videos"
                     ],
                     "return_format": "object",
                     "multiple": 0,
                     "allow_null": 0,
                     "ui": 1,
-                    "parent_repeater": "field_64f7451adf252"
+                    "parent_repeater": "field_64f89e2d1c810"
                 }
             ]
         }
@@ -123,7 +123,7 @@
             }
         ]
     ],
-    "menu_order": 1,
+    "menu_order": 2,
     "position": "normal",
     "style": "default",
     "label_placement": "top",
@@ -132,5 +132,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694015260
+    "modified": 1694015448
 }
