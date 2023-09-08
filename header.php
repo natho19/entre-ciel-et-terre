@@ -18,13 +18,13 @@
                         <!-- Top Bar -->
 						<div class="row">
 							<div class="col-md-12">
-								<div class="menu-primary-container navigation_wrapper">
+								<!-- <div class="menu-primary-container navigation_wrapper">
 									<ul id="jl_top_menu" class="jl_main_menu">
 										<li class="menu-item">
                                             <a href="#">Politique de confidentialité<span class="border-menu"></span></a>
 										</li>
 									</ul>
-								</div>
+								</div> -->
 								<div class="jl_top_cus_social">
 									<div class="menu_mobile_share_wrapper"> <span class="jl_hfollow">Nous suivre :</span>
 										<ul class="social_icon_header_top jl_socialcolor">
@@ -71,16 +71,16 @@
                                             <a href="http://localhost/entrecieletterre/a-propos/">A propos<span class="border-menu"></span></a>
 										</li>
 										<li class="menu-item">
-                                            <a href="http://localhost/entrecieletterre/blog/">Blog<span class="border-menu"></span></a>
+                                            <a href="http://localhost/entrecieletterre/category/blog/">Blog<span class="border-menu"></span></a>
 										</li>
                                         <li class="menu-item">
-                                            <a href="http://localhost/entrecieletterre/videos/">Vidéos<span class="border-menu"></span></a>
+                                            <a href="http://localhost/entrecieletterre/category/videos/">Vidéos<span class="border-menu"></span></a>
 										</li>
                                         <li class="menu-item">
                                             <a href="http://localhost/entrecieletterre/contact/">Contact<span class="border-menu"></span></a>
 										</li>
                                         <li class="menu-item">
-                                            <a href="#">Rendez-vous<span class="border-menu"></span></a>
+                                            <a href="http://localhost/entrecieletterre/rendez-vous/">Rendez-vous<span class="border-menu"></span></a>
 										</li>
 									</ul>
 								</div>
@@ -119,16 +119,16 @@
                             <a href="http://localhost/entrecieletterre/a-propos/">A propos<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
-                            <a href="http://localhost/entrecieletterre/blog/">Blog<span class="border-menu"></span></a>
+                            <a href="http://localhost/entrecieletterre/category/blog/">Blog<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
-                            <a href="http://localhost/entrecieletterre/videos/">Vidéos<span class="border-menu"></span></a>
+                            <a href="http://localhost/entrecieletterre/category/videos/">Vidéos<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
                             <a href="http://localhost/entrecieletterre/contact/">Contact<span class="border-menu"></span></a>
                         </li>
                         <li class="menu-item">
-                            <a href="#">Rendez-vous<span class="border-menu"></span></a>
+                            <a href="http://localhost/entrecieletterre/rendez-vous/">Rendez-vous<span class="border-menu"></span></a>
                         </li>
                     </ul>
                 </div>
