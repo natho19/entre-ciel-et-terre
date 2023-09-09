@@ -197,7 +197,11 @@
                                 ?>
                                 <?php if ($last_posts->have_posts()) : ?>
                                     <?php while ($last_posts->have_posts()) : $last_posts->the_post() ; ?>
-                                        <?php get_template_part('parts/content', 'post'); ?>
+                                    <div class="jl-grid-cols">
+                                        <div class="p-wraper post-2959">
+                                            <?php get_template_part('parts/content', 'post'); ?>
+                                        </div>
+                                    </div>
                                     <?php endwhile; ?>
                                 <?php endif; wp_reset_postdata(); ?>
                             </div>
