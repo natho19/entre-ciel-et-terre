@@ -10,51 +10,48 @@
                         <div class="single_section_content box blog_large_post_style">
                             <div class="jl_single_style2">
                                 <div class="single_post_entry_content single_bellow_left_align jl_top_single_title jl_top_title_feature">
-                                    <h1 class="single_post_title_main">Lorem ipsum dolor</h1>
+                                    <h1 class="single_post_title_main"><?php the_title(); ?></h1>
                                     <span class="jl_post_meta">
-                                        <span class="post-date"><i class="jli-pen"></i>July 24, 2016</span>
+                                        <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
                                         <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
                                     </span>
                                 </div>
                                 <div class="single_content_header jl_single_feature_below">
                                     <div class="image-post-thumb jlsingle-title-above">
-                                        <img src="<?= ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="" loading="lazy">
-                                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/E1hG6_muvK4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+                                        <?php if (get_field('video_link')) : ?>
+                                            <iframe width="560" height="315" src="<?= esc_attr(get_field('video_link')); ?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <?php else : ?>
+                                            <img src="<?= has_post_thumbnail() ? get_the_post_thumbnail_url(get_the_ID(), 'full') : ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="" loading="lazy">
+                                        <?php endif; ?>
                                     </div>
                                 </div>
                             </div>
-                            <div class="post_content_w">
-                                <div class="post_sw">
-                                    <div class="post_s">
-                                        <div class="jl_single_share_wrapper jl_clear_at">
-                                            <ul class="single_post_share_icon_post">
-                                                <li class="single_post_share_facebook">
-                                                    <a href="#" target="_blank"><i class="jli-facebook"></i></a>
-                                                </li>
-                                                <li class="single_post_share_twitter">
-                                                    <a href="#" target="_blank"><i class="jli-twitter"></i></a>
-                                                </li>
-                                                <li class="single_post_share_linkedin">
-                                                    <a href="#" target="_blank"><i class="jli-linkedin"></i></a>
-                                                </li>
-                                            </ul>
+                            <?php $content = get_post()->post_content; if (!empty($content)) : ?>
+                                <div class="post_content_w">
+                                    <!-- Partage sur les réseaux sociaux -->
+                                    <div class="post_sw">
+                                        <div class="post_s">
+                                            <div class="jl_single_share_wrapper jl_clear_at">
+                                                <ul class="single_post_share_icon_post">
+                                                    <li class="single_post_share_facebook">
+                                                        <a href="#" target="_blank"><i class="jli-facebook"></i></a>
+                                                    </li>
+                                                    <li class="single_post_share_twitter">
+                                                        <a href="#" target="_blank"><i class="jli-twitter"></i></a>
+                                                    </li>
+                                                    <li class="single_post_share_linkedin">
+                                                        <a href="#" target="_blank"><i class="jli-linkedin"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="post_content jl_content">
-                                    <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem Donec vehicula luctus nunc <a href="#">in laoreet Aliquam erat volutpat</a>. Suspendisse vulputate porttitor condimentum. Proin viverra orci a leo suscipit placerat. Sed feugiat posuere semper. Cras vitae mi erat, posuere mollis arcu. Pellentesque iaculis gravida nulla ac hendrerit. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis, lacus in malesuada pellentesque, nisl ipsum faucibus velit, et eleifend velit nulla a mi. Praesent pharetra semper purus, a vehicula massa interdum in <a href="#">Nulla a magna at diam consequat</a> semper eu vitae elit. In hac habitasse platea dictumst.</p>
-                                    <p>Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem. Suspendisse vulputate porttitor condimentum. <a href="#">Proin viverra orci a leo suscipit placerat</a>. Sed feugiat posuere semper. Cras vitae mi erat, posuere mollis arcu. Pellentesque iaculis gravida nulla ac hendrerit. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis.&nbsp;</p>
-                                    <h3>Find the best tour for this summer</h3>
-                                    <p>Pellentesque iaculis gravida <a href="#">nulla ac hendrerit</a>. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis, lacus in malesuada pellentesque, nisl ipsum faucibus velit, et eleifend velit nulla a mi. Praesent pharetra semper purus, a vehicula massa interdum in.</p>
-                                    <ul>
-                                        <li>Nisl ipsum faucibus velit, et eleifend velit nulla</li>
-                                        <li>Venenatis&nbsp;<em>sint occaecat</em>&nbsp;cupidatat non proident.</li>
-                                        <li>Praesent pharetra semper purus&nbsp;accusamus et iusto&nbsp;odio.</li>
-                                        <li>Cras vitae mi erat, posuere mollis arcu</li>
-                                    </ul>
-                                    <p>Pellentesque iaculis gravida nulla ac hendrerit. Vestibulum faucibus neque at lacus tristique eu ultrices ipsum mollis. Phasellus venenatis, lacus in malesuada pellentesque, <a href="#">nisl ipsum faucibus velit</a>, et eleifend velit nulla a mi. Praesent pharetra semper purus, a vehicula massa interdum in.</p>
-                                </div>
-                            </div>
+                                    <!-- Contenu -->
+                                    <div class="post_content jl_content">
+                                        <?php the_content(); ?>
+                                    </div>
+                                </div>  
+                            <?php endif; ?>
                             <div class="clearfix"></div>
                             <div class="related-posts">
                                 <h4>Articles similaires</h4>
@@ -116,7 +113,6 @@
                         </div>
                     </div>
                     <!-- end post -->
-                    <div class="brack_space"></div>
                 </div>
             </div>
             <?php get_template_part('parts/page', 'sidebar'); ?>

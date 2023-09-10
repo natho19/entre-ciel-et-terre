@@ -2,7 +2,7 @@
     <div class="jl_img_box jl_radus_e">
         <a href="<?php the_permalink(); ?>">
             <img src="<?= has_post_thumbnail() ? get_the_post_thumbnail_url(get_the_ID(), 'full') : ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_slider_grid_small size-sprasa_slider_grid_small wp-post-image" alt="<?= esc_attr(get_the_title()); ?>" loading="lazy">
-            <?php $video_link = get_field('video_link'); if ($video_link) : ?>
+            <?php if (get_field('video_link')) : ?>
                 <span class="jl_post_type_icon"><i class="jli-youtube"></i></span>
             <?php endif; ?>
         </a>

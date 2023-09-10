@@ -1,0 +1,7 @@
+- Utiliser le champ ACF Datetime pour le read-time-post
+- Partage des posts sur les réseaux sociaux (vidéos possible ???)
+- Articles similaires sur le single d'un post
+- Mise en page du contenu d'un article avec les différents styles possibles
+- Rendre le post-read-time dynamique
+- Content none
+- Sidebar
