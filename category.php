@@ -1,4 +1,4 @@
-<?php //$query = get_queried_object(); var_dump($query); ?>
+<?php $query = get_queried_object(); ?>
 
 <?php get_header(); ?>
 
@@ -20,16 +20,9 @@
                             <?php endwhile; ?>
                         </div>
                         <!-- Pagination -->
-                        <nav class="jellywp_pagination">
-                            <ul class="page-numbers">
-                                <li><span aria-current="page" class="page-numbers current">1</span></li>
-                                <li><a class="page-numbers" href="#">2</a></li>
-                                <li><a class="page-numbers" href="#">3</a></li>
-                                <li><span class="page-numbers dots">…</span></li>
-                                <li><a class="page-numbers" href="#">7</a></li>
-                                <li><a class="next page-numbers" href="#"><i class="jli-right-chevron"></i></a></li>
-                            </ul>
-                        </nav>
+                        <?php if (function_exists('ect_pagination')) : ?>
+                            <?php ect_pagination(); ?>
+                        <?php endif; ?>
                     </div>
                 <?php endif; ?>
             </div>

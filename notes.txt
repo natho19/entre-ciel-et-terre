@@ -1,13 +1,11 @@
 Notes :
 
 TODO :
-- Dynamic Homepage ✅
-- Dynamic A propos ✅
-- Dynamic Blog
+- Pagination de la page Blog et Videos ✅
+- Dynamiser le single d'un post
+- Rendre le post-read-time dynamique
 - Content none
-- Dynamic Videos
-- Dynamic Single
-- Temps de lecture sur les posts
+- Sidebar
 
 <div class="box jl_grid_layout1 blog_grid_post_style post-2947 post type-post status-publish format-standard has-post-thumbnail hentry category-active tag-gaming tag-morning">
     <div class="jl_grid_w">
