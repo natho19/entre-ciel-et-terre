@@ -4,7 +4,7 @@
     "fields": [
         {
             "key": "field_64fcd0f0b054f",
-            "label": "Temps de lecture",
+            "label": "Temps de lecture (en minutes)",
             "name": "read_time",
             "aria-label": "",
             "type": "text",
@@ -41,5 +41,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694290232
+    "modified": 1694443802
 }

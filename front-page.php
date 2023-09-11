@@ -67,7 +67,9 @@
                                             </h3>
                                             <span class="jl_post_meta">
                                                 <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
-                                                <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
+                                                <?php if (get_field('read_time')) : ?>
+                                                    <span class="post-read-time"><i class="jli-watch-2"></i><?php the_field('read_time'); ?> Mins</span>
+                                                <?php endif; ?>
                                             </span>
                                             <?php the_excerpt(); ?>
                                         </div>
@@ -77,28 +79,32 @@
 
                             <!-- Other posts -->
                             <?php if (have_rows('other_posts')) : ?>
-                                <?php while (have_rows('other_posts')) : the_row(); ?>
-                                    <?php $post = get_sub_field('post'); if ($post) : ?>
-                                        <div class="jl_mg_sm">
-                                            <div class="jl_mg_sm_w">
-                                                <div class="jl_f_img jl_radus_e">
-                                                    <a href="<?php the_permalink(); ?>">
-                                                        <img src="<?= has_post_thumbnail() ? get_the_post_thumbnail_url(get_the_ID(), 'full') : ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="<?= esc_attr(get_the_title()); ?>" loading="lazy">
-                                                    </a>
-                                                </div>
-                                                <div class="jl_mg_content">
-                                                    <h3 class="entry-title">
-                                                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                                                    </h3>
-                                                    <span class="jl_post_meta">
-                                                        <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
-                                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
-                                                    </span>
+                                <div class="jl_mg_flex">
+                                    <?php while (have_rows('other_posts')) : the_row(); ?>
+                                        <?php $post = get_sub_field('post'); if ($post) : ?>
+                                            <div class="jl_mg_sm">
+                                                <div class="jl_mg_sm_w">
+                                                    <div class="jl_f_img jl_radus_e">
+                                                        <a href="<?php the_permalink(); ?>">
+                                                            <img src="<?= has_post_thumbnail() ? get_the_post_thumbnail_url(get_the_ID(), 'full') : ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_feature_large size-sprasa_feature_large wp-post-image" alt="<?= esc_attr(get_the_title()); ?>" loading="lazy">
+                                                        </a>
+                                                    </div>
+                                                    <div class="jl_mg_content">
+                                                        <h3 class="entry-title">
+                                                            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                                        </h3>
+                                                        <span class="jl_post_meta">
+                                                            <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
+                                                            <?php if (get_field('read_time')) : ?>
+                                                                <span class="post-read-time"><i class="jli-watch-2"></i><?php the_field('read_time'); ?> Mins</span>
+                                                            <?php endif; ?>
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    <?php endif; wp_reset_postdata(); ?>
-                                <?php endwhile; ?>
+                                        <?php endif; wp_reset_postdata(); ?>
+                                    <?php endwhile; ?>
+                                </div>
                             <?php endif; ?>
                         </div>
                     </div>
@@ -133,7 +139,9 @@
                                             <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
                                             <span class="jl_post_meta">
                                                 <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
-                                                <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
+                                                <?php if (get_field('read_time')) : ?>
+                                                    <span class="post-read-time"><i class="jli-watch-2"></i><?php the_field('read_time'); ?> Mins</span>
+                                                <?php endif; ?>
                                             </span>
                                         </div>
                                     </div>
@@ -159,7 +167,9 @@
                                                     </h3>
                                                     <span class="jl_post_meta">
                                                         <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
-                                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
+                                                        <?php if (get_field('read_time')) : ?>
+                                                            <span class="post-read-time"><i class="jli-watch-2"></i><?php the_field('read_time'); ?> Mins</span>
+                                                        <?php endif; ?>
                                                     </span>
                                                 </div>
                                             </div>

@@ -13,7 +13,9 @@
                                     <h1 class="single_post_title_main"><?php the_title(); ?></h1>
                                     <span class="jl_post_meta">
                                         <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
-                                        <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
+                                        <?php if (get_field('read_time')) : ?>
+                                            <span class="post-read-time"><i class="jli-watch-2"></i><?php the_field('read_time'); ?> Mins</span>
+                                        <?php endif; ?>
                                     </span>
                                 </div>
                                 <div class="single_content_header jl_single_feature_below">
@@ -67,41 +69,9 @@
                                                 <h2 class="entry-title"> <a href="#" tabindex="-1">How to make your life routine more fun and eco-friendly</a></h2>
                                                 <span class="jl_post_meta">
                                                     <span class="post-date"><i class="jli-pen"></i>July 10, 2019</span>
-                                                    <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
-                                                </span>
-                                                <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem Donec vehicula luctus nunc...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="jl_m_right jl_m_list jl_m_img">
-                                        <div class="jl_m_right_w">
-                                            <div class="jl_m_right_img jl_radus_e">
-                                                <a href="http://localhost/entrecieletterre/lorem-ipsum-dolor/">
-                                                    <img src="<?= ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_slider_grid_small size-sprasa_slider_grid_small wp-post-image" alt="" loading="lazy">
-                                                </a>
-                                            </div>
-                                            <div class="jl_m_right_content">
-                                                <h2 class="entry-title"> <a href="#" tabindex="-1">How to make your life routine more fun and eco-friendly</a></h2>
-                                                <span class="jl_post_meta">
-                                                    <span class="post-date"><i class="jli-pen"></i>July 10, 2019</span>
-                                                    <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
-                                                </span>
-                                                <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem Donec vehicula luctus nunc...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="jl_m_right jl_m_list jl_m_img">
-                                        <div class="jl_m_right_w">
-                                            <div class="jl_m_right_img jl_radus_e">
-                                                <a href="http://localhost/entrecieletterre/lorem-ipsum-dolor/">
-                                                    <img src="<?= ECT_IMG_URL . '900x600.png'; ?>" class="attachment-sprasa_slider_grid_small size-sprasa_slider_grid_small wp-post-image" alt="" loading="lazy">
-                                                </a>
-                                            </div>
-                                            <div class="jl_m_right_content">
-                                                <h2 class="entry-title"> <a href="#" tabindex="-1">How to make your life routine more fun and eco-friendly</a></h2>
-                                                <span class="jl_post_meta">
-                                                    <span class="post-date"><i class="jli-pen"></i>July 10, 2019</span>
-                                                    <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
+                                                    <?php if (get_field('read_time')) : ?>
+                                                        <span class="post-read-time"><i class="jli-watch-2"></i><?php the_field('read_time'); ?> Mins</span>
+                                                    <?php endif; ?>
                                                 </span>
                                                 <p>Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem Donec vehicula luctus nunc...</p>
                                             </div>
