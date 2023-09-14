@@ -30,28 +30,10 @@
                             </div>
                             <?php $content = get_post()->post_content; if (!empty($content)) : ?>
                                 <div class="post_content_w">
-                                    <!-- Partage sur les réseaux sociaux -->
-                                    <div class="post_sw">
-                                        <div class="post_s">
-                                            <div class="jl_single_share_wrapper jl_clear_at">
-                                                <ul class="single_post_share_icon_post">
-                                                    <li class="single_post_share_facebook">
-                                                        <a href="#" target="_blank"><i class="jli-facebook"></i></a>
-                                                    </li>
-                                                    <li class="single_post_share_twitter">
-                                                        <a href="#" target="_blank"><i class="jli-twitter"></i></a>
-                                                    </li>
-                                                    <li class="single_post_share_linkedin">
-                                                        <a href="#" target="_blank"><i class="jli-linkedin"></i></a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <!-- Contenu -->
                                     <div class="post_content jl_content">
                                         <?php the_content(); ?>
-                                    </div>
+                                    <!-- </div> Fermeture dans le ect-social-sharing.php -->
                                 </div>  
                             <?php endif; ?>
                             <div class="clearfix"></div>

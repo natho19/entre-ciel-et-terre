@@ -1,6 +1,6 @@
-- Partage des posts sur les réseaux sociaux (vidéos possible ???)
 - Articles similaires sur le single d'un post
 - Mise en page du contenu d'un article avec les différents styles possibles
 
 - Content none
 - Sidebar
+- Search

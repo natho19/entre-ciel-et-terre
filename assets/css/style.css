@@ -11893,7 +11893,7 @@ Blog large layout with sidebar
 .post_content_w{
     display: flex;
     display: -webkit-flex;
-    flex-flow: row nowrap;
+    flex-flow: row-reverse nowrap;
     float: left;
     width: 100%;
 }
@@ -19165,6 +19165,19 @@ footer .widget .link-list-widget {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+}
+@media only screen and (max-width: 425px) {
+    .select {
+        font-size: 12px;
+        padding: 6px 15px 5px 6px;
+    }
+    .select-dropdown::after {
+        right: 5px;
+        margin-top: -1px;
+        border-top-width: 4px;
+        border-right-width: 4px;
+        border-left-width: 4px;
+    }
 }
 .select:active,
 .select:focus {
