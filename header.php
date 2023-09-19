@@ -140,8 +140,8 @@
                         <span class="jl_close_2"></span>
                     </span>
                 </div>
-                <form method="get" class="searchform_theme" action="#">
-                    <input type="text" placeholder="Rechercher..." value="" name="s" class="search_btn" />
+                <form role="search" method="get" action="<?= home_url(); ?>" class="searchform_theme">
+                    <input type="search" name="s" class="search_btn" placeholder="Rechercher..."/>
                     <button type="submit" class="button"><i class="jli-search"></i></button>
                 </form>
             </div>

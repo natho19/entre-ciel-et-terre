@@ -1,9 +1,12 @@
 - Articles similaires sur le single d'un post ✅
 - Mise en page d'un article ✅ 
 - Sidebar ✅
-- Content none
-- Search
+- Content none ✅
+- Search ✅
 - Page Contact
 - Refactoring
 
 - Traduction
+- Templates de pages (simple, avec bannière)
+- Menus
+- Page active on menu

@@ -1,6 +1,6 @@
 <?php
 
-// Image URL location
+// Image folder URL location
 define('ECT_IMG_URL', get_template_directory_uri() . '/assets/img/', false);
 
 // Disable Gutenberg
@@ -25,7 +25,7 @@ function ect_excerpt_more($more) {
 }
 add_filter('excerpt_more', 'ect_excerpt_more');
 
-// Requête WP_Query
+// WP_Query
 function ect_get_objects(
 	$post_type = 'post', 
 	$nb = 3,
@@ -59,3 +59,12 @@ function ect_get_objects(
 
 	return new WP_Query($args);
 }
+
+// Filter search results for posts only
+function ect_search_filter($query) {
+	if ($query->is_search) {
+		$query->set('post_type', 'post');
+	}
+	return $query;
+}
+add_filter('pre_get_posts', 'ect_search_filter');
