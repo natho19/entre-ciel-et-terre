@@ -1,9 +1,9 @@
 - Articles similaires sur le single d'un post ✅
 - Mise en page d'un article ✅ 
-- Sidebar
-- Page Contact
+- Sidebar ✅
 - Content none
 - Search
+- Page Contact
 - Refactoring
 
 - Traduction

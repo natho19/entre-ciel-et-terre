@@ -7320,6 +7320,9 @@ Author box
     border-radius: 100px;
     width: 100px !important;
 }
+.content-none img {
+    width: 60px;
+}
 .author-info.jl_auth_head .author-description h5{
     font-size: 23px;
     margin-top: 10px;
