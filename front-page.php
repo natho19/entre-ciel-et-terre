@@ -188,43 +188,41 @@
     </section>
 
     <!-- Derniers articles -->
-    <section class="home_section2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div id="blockid_72be465" class="block-section jl-main-block" data-blockid="blockid_72be465" data-name="jl_mgrid" data-page_max="11" data-page_current="1" data-author="none" data-order="date_post" data-posts_per_page="6" data-offset="5">
-                        <div class="jl_grid_wrap_f jl_clear_at g_3col">
-                            <div class="jl-roww content-inner jl-col3 jl-col-row">
-                                <div class="jl_sec_title">
-                                    <h3 class="jl_title_c"><span><?php the_field('last_posts_title'); ?></span></h3>
-                                </div>
-                                <?php
-                                $nb = get_field('last_posts_number');
-                                $category = 'blog';
-                                $last_posts = ect_get_objects('post', $nb, $category);
-                                ?>
-                                <?php if ($last_posts->have_posts()) : ?>
-                                    <?php while ($last_posts->have_posts()) : $last_posts->the_post() ; ?>
+    <?php
+    $nb = get_field('last_posts_number');
+    $last_posts = ect_get_objects('post', $nb, 'blog');
+    if ($last_posts->have_posts()) : ?>
+        <section class="home_section2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="blockid_72be465" class="block-section jl-main-block" data-blockid="blockid_72be465" data-name="jl_mgrid" data-page_max="11" data-page_current="1" data-author="none" data-order="date_post" data-posts_per_page="6" data-offset="5">
+                            <div class="jl_grid_wrap_f jl_clear_at g_3col">
+                                <div class="jl-roww content-inner jl-col3 jl-col-row">
+                                    <div class="jl_sec_title">
+                                        <h3 class="jl_title_c"><span><?php the_field('last_posts_title'); ?></span></h3>
+                                    </div>
+                                    <?php while ($last_posts->have_posts()) : $last_posts->the_post(); ?>
                                     <div class="jl-grid-cols">
                                         <div class="p-wraper post-2959">
                                             <?php get_template_part('parts/content', 'post'); ?>
                                         </div>
                                     </div>
                                     <?php endwhile; ?>
-                                <?php endif; wp_reset_postdata(); ?>
-                            </div>
-
-                            <?php if (get_field('more_posts')) : ?>
-                                <div class="link-area link-area-posts">
-                                    <a href="<?= esc_url(get_field('more_posts')['url']); ?>"><?= esc_html(get_field('more_posts')['title']); ?></a>
                                 </div>
-                            <?php endif; ?>
+
+                                <?php if (get_field('more_posts')) : ?>
+                                    <div class="link-area link-area-posts">
+                                        <a href="<?= esc_url(get_field('more_posts')['url']); ?>"><?= esc_html(get_field('more_posts')['title']); ?></a>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    <?php endif; wp_reset_postdata(); ?>
 </div>
 
 <?php get_footer(); ?>

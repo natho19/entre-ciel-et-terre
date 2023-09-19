@@ -29,21 +29,23 @@ add_filter('excerpt_more', 'ect_excerpt_more');
 function ect_get_objects(
 	$post_type = 'post', 
 	$nb = 3,
-	// $excludes = [],
     $category = null,
+	$excludes = [],
+	$orderby = 'date',
 	$taxonomy = null, 
 	$terms = null, 
-	$orderby = 'date', 
-	$order = 'DESC', 
-	$paged = 1)
-{
+	$order = 'DESC',
+	$post_status = 'publish',
+	$paged = 1) {
+
 	$args = [
 		'post_type' => $post_type,
 		'posts_per_page' => $nb,
         'category_name' => $category,
-		// 'post__not_in' => $excludes,
+		'post__not_in' => $excludes,
 		'orderby' => $orderby,
 		'order' => $order,
+		'post_status' => $post_status,
 		'paged' => $paged
 	];
 
