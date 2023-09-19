@@ -1,6 +1,9 @@
-- Articles similaires sur le single d'un post
-- Mise en page du contenu d'un article avec les différents styles possibles
-
-- Content none
+- Articles similaires sur le single d'un post ✅
+- Mise en page d'un article ✅ 
 - Sidebar
+- Page Contact
+- Content none
 - Search
+- Refactoring
+
+- Traduction

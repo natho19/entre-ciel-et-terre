@@ -18599,7 +18599,10 @@ section.wp-block-cover-image h2{
 }
 .content_single_page li, .post_content li{
     padding-left: 0px;
-    margin-bottom: 0em;
+    margin-bottom: .5em !important;
+}
+.content_single_page ol, .post_content ol, .content_single_page ul, .post_content ul {
+    margin-top: .5em !important;
 }
 .has-medium-font-size {
     font-size: 20px !important;

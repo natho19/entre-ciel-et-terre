@@ -5,7 +5,7 @@
         <div class="row main_content">
             <div class="col-md-8  loop-large-post" id="content">
                 <div class="widget_container content_page">
-                    <!-- start post -->
+                    <!-- Article -->
                     <div class="post-2838 post type-post status-publish format-standard has-post-thumbnail hentry category-sports tag-gaming" id="post-2838">
                         <div class="single_section_content box blog_large_post_style">
                             <div class="jl_single_style2">
@@ -28,15 +28,19 @@
                                     </div>
                                 </div>
                             </div>
+
                             <?php $content = get_post()->post_content; if (!empty($content)) : ?>
                                 <div class="post_content_w">
                                     <!-- Contenu -->
                                     <div class="post_content jl_content">
                                         <?php the_content(); ?>
-                                    <!-- </div> Fermeture dans le ect-social-sharing.php -->
+                                    <!-- Fermeture de la <div> avec ect-social-sharing.php -->
                                 </div>
                             <?php endif; ?>
+
                             <div class="clearfix"></div>
+
+                            <!-- Articles similaires -->
                             <?php
                             $category = get_field('video_link') ? 'videos' : 'blog';
                             $similar_posts = ect_get_objects('post', 2, $category, [get_the_ID()], 'rand');
@@ -71,10 +75,9 @@
                                     </div>
                                 </div>
                             <?php endif; wp_reset_postdata(); ?>
-                            <!-- #respond -->
                         </div>
                     </div>
-                    <!-- end post -->
+                    <!-- Fin de l'article -->
                 </div>
             </div>
             <?php get_template_part('parts/page', 'sidebar'); ?>
