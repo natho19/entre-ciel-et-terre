@@ -54,31 +54,8 @@
                     </div>
                     <div class="contact-form">
                         <h2>Formulaire de contact</h2>
-                        <form action="post-layout-1.html" method="post" id="commentform" class="comment-form">
-                            <p class="comment-notes">Tous les champs sont requis <span class="required">*</span></p>
-                            <div class="form-fields row">
-                                <span class="col-md-6">
-                                    <input class="mb-4" type="text" id="lastname" name="lastname" placeholder="Nom" required>
-                                </span>
-                                <span class="col-md-6">
-                                    <input class="mb-4" type="text" id="firstname" name="firstname" placeholder="Prénoms" required>
-                                </span>
-                            </div>
-                            <div class="form-fields row">
-                                <span class="col-md-6">
-                                    <input class="mb-4" type="email" id="email" name="email" placeholder="Email" required>
-                                </span>
-                                <span class="col-md-6">
-                                    <input class="mb-4" type="text" id="object" name="object" placeholder="Objet" required>
-                                </span>
-                            </div>
-                            <p class="comment-form-comment">
-                                <textarea class="u-full-width" id="comment" name="comment" cols="45" rows="8" placeholder="Commentaire" required></textarea>
-                            </p>
-                            <p class="form-submit">
-                                <input name="submit" type="submit" id="submit" class="submit" value="Envoyer">
-                            </p>
-                        </form>
+                        <!-- Contact Form 7 -->
+                        <?= do_shortcode('[contact-form-7 id="01ec979" title="Formulaire de contact"]') ?>
                     </div>
                 </div>
             </div>

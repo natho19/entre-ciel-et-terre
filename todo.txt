@@ -4,8 +4,8 @@
 - Content none ✅
 - Search ✅
 - Page Contact
-- Refactoring
 
+- Refactoring
 - Traduction
 - Templates de pages (simple, avec bannière)
 - Menus

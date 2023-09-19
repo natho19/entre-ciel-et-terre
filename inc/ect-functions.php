@@ -68,3 +68,6 @@ function ect_search_filter($query) {
 	return $query;
 }
 add_filter('pre_get_posts', 'ect_search_filter');
+
+// Stop Contact Form 7 additionnal tags
+add_filter('wpcf7_autop_or_not', '__return_false');

@@ -4706,9 +4706,9 @@ Form
 .comment-form-comment{
     margin-bottom: 0px;
 }
-.wpcf7, .wpcf7 .form-fields.row{
+/* .wpcf7, .wpcf7 .form-fields.row{
     margin-top: 25px;
-}
+} */
 .form-fields.row{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -4817,7 +4817,7 @@ Form
 #content input[type="checkbox"] {
     display: inline;
 }
-.wpcf7-form-control-wrap{
+/* .wpcf7-form-control-wrap{
     margin-top: 5px;
     margin-bottom: 15px;
     float: left;
@@ -4825,7 +4825,7 @@ Form
 }
 .wpcf7-not-valid-tip{
     color: #f00 !important;
-}
+} */
 #respond{
     float: left;
     width: 100%;    
@@ -8524,11 +8524,14 @@ Comment box
 dd{
     margin-bottom: 20px;
 }
-#commentform #submit:hover,
-.wpcf7-form-control.wpcf7-submit:hover {
+#commentform #submit:hover {
     color: #FFF;
     background: #f75454;
 }
+/* .wpcf7-form-control.wpcf7-submit:hover {
+    color: #FFF;
+    background: #f75454;
+} */
 .single_section_comment p{
     position: relative;
     width: 100%;
