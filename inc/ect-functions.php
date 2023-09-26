@@ -71,3 +71,14 @@ add_filter('pre_get_posts', 'ect_search_filter');
 
 // Stop Contact Form 7 additionnal tags
 add_filter('wpcf7_autop_or_not', '__return_false');
+
+// Mailtrap configuration
+function mailtrap($phpmailer) {
+	$phpmailer->isSMTP();
+	$phpmailer->Host = 'sandbox.smtp.mailtrap.io';
+	$phpmailer->SMTPAuth = true;
+	$phpmailer->Port = 2525;
+	$phpmailer->Username = '507e38346f368f';
+	$phpmailer->Password = '********64b9';
+}
+add_action('phpmailer_init', 'mailtrap');
