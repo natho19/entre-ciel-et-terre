@@ -29,12 +29,12 @@
 									<div class="menu_mobile_share_wrapper"> <span class="jl_hfollow">Nous suivre :</span>
 										<ul class="social_icon_header_top jl_socialcolor">
 											<li><a href="#" target="_blank"><i class="jli-facebook"></i></a></li>
-											<li><a href="#" target="_blank"><i class="jli-youtube"></i></a></li>
+											<li><a href="https://www.youtube.com/@1Entre_Ciel_et_Terre" target="_blank"><i class="jli-youtube"></i></a></li>
 											<li><a href="#" target="_blank"><i class="jli-instagram"></i></a></li>
 											<li><a href="#" target="_blank"><i class="jli-twitter"></i></a></li>
 											<li><a href="#" target="_blank"><i class="jli-linkedin"></i></a></li>
 											<li class="header-svg-icon">
-												<a href="#" target="_blank">
+												<a href="https://www.tiktok.com/@1entre_ciel_et_terre" target="_blank">
 													<img class="img-to-adjust" src="<?= ECT_IMG_URL . 'tiktok.svg'; ?>" alt="Tiktok">
 												</a>
 											</li>

@@ -50,12 +50,12 @@
 													<div class="social_icons_widget">
 														<ul class="social-icons-list-widget icons_about_widget_display">
 															<li><a href="#" class="facebook" target="_blank"><i class="jli-facebook"></i></a></li>
-															<li><a href="#" class="youtube" target="_blank"><i class="jli-youtube"></i></a></li>
+															<li><a href="https://www.youtube.com/@1Entre_Ciel_et_Terre" class="youtube" target="_blank"><i class="jli-youtube"></i></a></li>
 															<li><a href="#" class="instagram" target="_blank"><i class="jli-instagram"></i></a></li>
 															<li><a href="#" class="twitter" target="_blank"><i class="jli-twitter"></i></a></li>
 															<li><a href="#" class="linkedin" target="_blank"><i class="jli-linkedin"></i></a></li>
 															<li>
-																<a href="#" class="footer-svg-icon" target="_blank">
+																<a href="https://www.tiktok.com/@1entre_ciel_et_terre" class="footer-svg-icon" target="_blank">
 																	<img src="<?= ECT_IMG_URL . 'tiktok.svg'; ?>" alt="Tiktok">
 																</a>
 															</li>
