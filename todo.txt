@@ -1,3 +1,8 @@
-- Articles similaires sur le single d'un post ✅
-- Templates de pages (simple, avec bannière)
-- Traduction
+- Templates de pages (simple, avec bannière) ✅
+- Traduction :
+    * Installer bonici.africa en local ✅
+    * Tester la Traduction
+    * Faire quelques recherches
+    * Mettre en place la tradutcion
+
+Extension name : Polylang

@@ -23,9 +23,16 @@
     "location": [
         [
             {
-                "param": "post_taxonomy",
+                "param": "post_category",
                 "operator": "==",
                 "value": "category:videos"
+            }
+        ],
+        [
+            {
+                "param": "post_category",
+                "operator": "==",
+                "value": "category:videos-en"
             }
         ]
     ],
@@ -38,5 +45,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1694376706
+    "modified": 1696530460
 }

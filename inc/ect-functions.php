@@ -82,3 +82,4 @@ function mailtrap($phpmailer) {
 	$phpmailer->Password = '********64b9';
 }
 add_action('phpmailer_init', 'mailtrap');
+

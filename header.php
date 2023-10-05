@@ -96,10 +96,11 @@
                                         <i class="jli-search"></i>
 									</div>
 									<div class="select-dropdown">
-										<select class="select">
+										<!-- <select class="select">
 											<option value="fr" selected>Français</option>
 											<option value="eng">English</option>
-										</select>
+										</select> -->
+										<?php pll_the_languages(['dropdown'  => 1]); ?>
 									</div>
 								</div>
 							</div>
