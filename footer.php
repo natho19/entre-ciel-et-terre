@@ -3,6 +3,7 @@
 				<div class="footer-columns">
 					<div class="container">
 						<div class="row">
+							
 							<div class="col-md-4">
 								<div id="sprasa_about_us_widget-2" class="widget jellywp_about_us_widget">
 									<div class="widget_jl_wrapper about_widget_content">
@@ -16,6 +17,7 @@
 									</div>
 								</div>
 							</div>
+
 							<div class="col-md-3 offset-md-1">
 								<div id="sprasa_recent_post_text_widget-8" class="widget post_list_widget">
 									<div class="widget_jl_wrapper">
@@ -38,6 +40,7 @@
 									</div>
 								</div>
 							</div>
+
 							<div class="col-md-4">
 								<div class="widget_jl_wrapper jl_clear_at">
 									<div id="sprasa_category_image_widget_register-2" class="widget jellywp_cat_image">

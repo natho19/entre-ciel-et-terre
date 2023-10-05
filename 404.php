@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+<!-- Error 404 -->
 <section id="content_main" class="clearfix">
     <div class="container">
         <div class="row main_content">

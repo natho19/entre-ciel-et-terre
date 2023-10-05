@@ -11,23 +11,27 @@
                 </div>
                 <?php if (have_posts()) : ?>
                     <div class="jl_wrapper_cat">
+                        <!-- All posts -->
                         <div id="content_masonry" class="jl_cgrid pagination_infinite_style_cat load_more_main_wrapper">
-                            <!-- Tous les articles du Blog -->
                             <?php while (have_posts()) : the_post(); ?>
                                 <div class="box jl_grid_layout1 blog_grid_post_style post-2947 post type-post status-publish format-standard has-post-thumbnail hentry category-active tag-gaming tag-morning">
                                     <?php get_template_part('parts/content', 'post'); ?>
                                 </div>
                             <?php endwhile; ?>
                         </div>
+
                         <!-- Pagination -->
                         <?php if (function_exists('ect_pagination')) : ?>
                             <?php ect_pagination(); ?>
                         <?php endif; ?>
                     </div>
                 <?php else : ?>
+                    <!-- Content none -->
                     <?php get_template_part('parts/content', 'none'); ?>
                 <?php endif; ?>
             </div>
+
+            <!-- Sidebar -->
             <?php get_template_part('parts/page', 'sidebar'); ?>
         </div>
     </div>

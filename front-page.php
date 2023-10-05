@@ -203,12 +203,12 @@
                                         <h3 class="jl_title_c"><span><?php the_field('last_posts_title'); ?></span></h3>
                                     </div>
                                     <?php while ($last_posts->have_posts()) : $last_posts->the_post(); ?>
-                                    <div class="jl-grid-cols">
-                                        <div class="p-wraper post-2959">
-                                            <?php get_template_part('parts/content', 'post'); ?>
+                                        <div class="jl-grid-cols">
+                                            <div class="p-wraper post-2959">
+                                                <?php get_template_part('parts/content', 'post'); ?>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <?php endwhile; ?>
+                                    <?php wp_reset_postdata(); endwhile; ?>
                                 </div>
 
                                 <?php if (get_field('more_posts')) : ?>
