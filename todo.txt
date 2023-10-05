@@ -1,7 +1,3 @@
 - Articles similaires sur le single d'un post ✅
 - Templates de pages (simple, avec bannière)
-- Refactoring
-- Commentaires en anglais
 - Traduction
-- Formulaire Rendez-vous
-- Formulaire Circuit touristique

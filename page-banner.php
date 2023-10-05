@@ -1,4 +1,8 @@
+<?php /* Template Name: Page avec bannière */ ?>
+
 <?php get_header(); ?>
+
+<?php get_template_part('parts/page', 'breadcrumb'); ?>
 
 <section id="content_main" class="clearfix jl_spost">
     <div class="container">
