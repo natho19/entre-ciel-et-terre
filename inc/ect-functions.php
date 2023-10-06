@@ -17,6 +17,11 @@ function ect_setup() {
 	pll_register_string('custom_translate', 'Email :');
 	pll_register_string('custom_translate', 'Formulaire de contact');
 	pll_register_string('custom_translate', 'Nous suivre :');
+	pll_register_string('custom_translate', 'Tout savoir sur les visas des USA et du CANADA');
+	pll_register_string('custom_translate', 'Liens utiles');
+	pll_register_string('custom_translate', 'Nous suivre');
+	pll_register_string('custom_translate', 'Publicité');
+	pll_register_string('custom_translate', 'Derniers articles');
 }
 add_action('after_setup_theme', 'ect_setup');
 

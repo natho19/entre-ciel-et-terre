@@ -4,7 +4,7 @@
         <div id="sprasa_ads300x250_widget-2" class="widget jellywp_ads300x250_widget">
             <div class="widget_jl_wrapper ads_widget_container">
                 <div class="widget-title">
-                    <h2 class="jl_title_c">Publicité</h2>
+                    <h2 class="jl_title_c"><?= pll_e('Publicité'); ?></h2>
                 </div>
                 <div class="advertisement">
                     <a href="#">
@@ -22,7 +22,7 @@
                 <div class="widget_jl_wrapper">
                     <div class="ettitle">
                         <div class="widget-title">
-                            <h2 class="jl_title_c">Derniers articles</h2>
+                            <h2 class="jl_title_c"><?= pll_e('Derniers articles'); ?></h2>
                         </div>
                     </div>
                     

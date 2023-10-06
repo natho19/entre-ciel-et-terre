@@ -1,7 +1,7 @@
-- Dynamic menu
-- Dynamic top bar menu
-- Dynamic widgets
-- Finaliser les traductions
-- Finaliser les contenus
-- Faire les captures
-- Envoyer les captures
+- Pub
+- Favicon
+- Content
+- Captures
+
+- Dynamic Publicité
+- Vérifier les traductions sur les pages rares (content-none, search...)
