@@ -1,8 +1,4 @@
-- Templates de pages (simple, avec bannière) ✅
-- Traduction :
-    * Installer bonici.africa en local ✅
-    * Tester la Traduction
-    * Faire quelques recherches
-    * Mettre en place la tradutcion
-
-Extension name : Polylang
+- Terminer toutes les traductions
+- Construire les cards pour les formulaires
+- Finaliser le site
+- Envoyer les captures

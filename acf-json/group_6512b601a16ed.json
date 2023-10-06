@@ -114,9 +114,9 @@
     "location": [
         [
             {
-                "param": "page",
+                "param": "page_template",
                 "operator": "==",
-                "value": "19"
+                "value": "templates\/contact.php"
             }
         ]
     ],
@@ -131,5 +131,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1695725603
+    "modified": 1696585975
 }

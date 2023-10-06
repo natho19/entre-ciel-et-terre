@@ -21,19 +21,19 @@
                                         <ul class="list-unstyled">
                                             <?php if (get_sub_field('address')) : ?>
                                                 <li class="d-block mb-3">
-                                                    <span class="d-block text-black small text-uppercase font-weight-bold">Adresse :</span>
+                                                    <span class="d-block text-black small text-uppercase font-weight-bold"><?= pll_e('Adresse :'); ?></span>
                                                     <span><?php the_sub_field('address'); ?></span>
                                                 </li>
                                             <?php endif; ?>
                                             <?php if (get_sub_field('phone')) : ?>
                                                 <li class="d-block mb-3">
-                                                    <span class="d-block text-black small text-uppercase font-weight-bold">Téléphone :</span>
-                                                    <span><?php the_sub_field('address'); ?></span>
+                                                    <span class="d-block text-black small text-uppercase font-weight-bold"><?= pll_e('Téléphone :'); ?></span>
+                                                    <span><?php the_sub_field('phone'); ?></span>
                                                 </li>
                                             <?php endif; ?>
                                             <?php if (get_sub_field('email')) : ?>
                                                 <li class="d-block mb-3">
-                                                    <span class="d-block text-black small text-uppercase font-weight-bold">Email :</span>
+                                                    <span class="d-block text-black small text-uppercase font-weight-bold"><?= pll_e('Email :'); ?></span>
                                                     <span><?php the_sub_field('email'); ?></span>
                                                 </li>
                                             <?php endif; ?>
@@ -46,8 +46,12 @@
 
                     <!-- Formulaire de contact -->
                     <div class="contact-form">
-                        <h2>Formulaire de contact</h2>
-                        <?= do_shortcode('[contact-form-7 id="01ec979" title="Formulaire de contact"]') ?>
+                        <h2><?= pll_e('Formulaire de contact'); ?></h2>
+                        <?php if (pll_current_language() == 'fr') : ?>
+                            <?= do_shortcode('[contact-form-7 id="01ec979" title="Formulaire de contact"]') ?>
+                        <?php else : ?>
+                            <?= do_shortcode('[contact-form-7 id="5f1d982" title="Contact form"]') ?>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>

@@ -10,6 +10,12 @@ add_filter('use_block_editor_for_post', '__return_false');
 function ect_setup() {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
+
+	// Custom traduction
+	pll_register_string('custom_translate', 'Adresse :');
+	pll_register_string('custom_translate', 'Téléphone :');
+	pll_register_string('custom_translate', 'Email :');
+	pll_register_string('custom_translate', 'Formulaire de contact');
 }
 add_action('after_setup_theme', 'ect_setup');
 
