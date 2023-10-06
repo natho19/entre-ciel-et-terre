@@ -1,4 +1,4 @@
-- Pub
+- Pub ✅
 - Favicon
 - Content
 - Captures

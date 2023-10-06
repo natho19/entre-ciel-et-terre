@@ -8,7 +8,7 @@
                 </div>
                 <div class="advertisement">
                     <a href="#">
-                        <img src="<?= ECT_IMG_URL . 'pub.png' ?>" alt="Publicité">
+                        <img src="<?= ECT_IMG_URL . 'pub.jpg' ?>" alt="Publicité">
                     </a>
                 </div>
             </div>
