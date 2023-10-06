@@ -26,7 +26,7 @@
 									</ul>
 								</div> -->
 								<div class="jl_top_cus_social">
-									<div class="menu_mobile_share_wrapper"> <span class="jl_hfollow">Nous suivre :</span>
+									<div class="menu_mobile_share_wrapper"> <span class="jl_hfollow"><?= pll_e('Nous suivre :'); ?></span>
 										<ul class="social_icon_header_top jl_socialcolor">
 											<li><a href="#" target="_blank"><i class="jli-facebook"></i></a></li>
 											<li><a href="https://www.youtube.com/@1Entre_Ciel_et_Terre" target="_blank"><i class="jli-youtube"></i></a></li>
@@ -96,10 +96,6 @@
                                         <i class="jli-search"></i>
 									</div>
 									<div class="select-dropdown">
-										<!-- <select class="select">
-											<option value="fr" selected>Français</option>
-											<option value="eng">English</option>
-										</select> -->
 										<?php pll_the_languages(['dropdown'  => 1]); ?>
 									</div>
 								</div>

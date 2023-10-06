@@ -1334,7 +1334,7 @@ Feature full
 .jl_full_feature .jl_f_postbox .jl_f_title a, .jl_f_title {    
     color: #fff;
     display: inline;
-    font-size: 35px;
+    font-size: 38px;
 }
 .jl_full_feature .jl_f_postbox .jl_f_title a:hover{
     color: #fff !important;
@@ -3930,7 +3930,13 @@ Header with social header top share
     right: 45px;
 }
 .header_layout_style3_custom.jl_cus_top_share .jl_nav_mobile .menu_mobile_icons{
+    display: none;
     right: 0px;
+}
+@media only screen and (max-width: 992px) {
+    .header_layout_style3_custom.jl_cus_top_share .jl_nav_mobile .menu_mobile_icons {
+        display: block;
+    }
 }
 .header_layout_style3_custom.jl_cus_top_share .jl_nav_mobile .search_header_wrapper, .header_layout_style3_custom.jl_cus_top_share .jl_nav_mobile .menu_mobile_icons{
     margin-right: 0px;

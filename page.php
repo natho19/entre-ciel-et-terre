@@ -4,6 +4,9 @@
     <div class="container">
         <div class="row main_content">
             <div class="col-md-8 loop-large-post" id="content">
+                <div class="jl_cat_mid_title">
+                    <h3 class="categories-title title"><?php the_title(); ?></h3>
+                </div>
                 <div class="widget_container content_page">
                     <div class="post-2963 post type-post status-publish format-standard has-post-thumbnail hentry category-science tag-gaming" id="post-2963">
                         <div class="single_section_content box blog_large_post_style">

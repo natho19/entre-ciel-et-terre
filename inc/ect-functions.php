@@ -16,6 +16,7 @@ function ect_setup() {
 	pll_register_string('custom_translate', 'Téléphone :');
 	pll_register_string('custom_translate', 'Email :');
 	pll_register_string('custom_translate', 'Formulaire de contact');
+	pll_register_string('custom_translate', 'Nous suivre :');
 }
 add_action('after_setup_theme', 'ect_setup');
 
