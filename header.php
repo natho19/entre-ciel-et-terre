@@ -18,13 +18,20 @@
                         <!-- Top Bar -->
 						<div class="row">
 							<div class="col-md-12">
-								<!-- <div class="menu-primary-container navigation_wrapper">
-									<ul id="jl_top_menu" class="jl_main_menu">
-										<li class="menu-item">
-                                            <a href="#">Politique de confidentialité<span class="border-menu"></span></a>
-										</li>
-									</ul>
-								</div> -->
+								<!-- Top menu -->
+								<?php
+								wp_nav_menu([
+									'theme_location'  => 'top-menu',
+                                    'depth'           => 1,
+                                    'container'       => 'div',
+                                    'container_class' => 'menu-primary-container navigation_wrapper',
+                                    'menu_class'      => 'jl_main_menu',
+                                    'menu_id'         => 'jl_top_menu',
+                                    'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                                    'walker'          => new WP_Bootstrap_Navwalker(),
+								]);
+								?>
+								<!-- Social medias -->
 								<div class="jl_top_cus_social">
 									<div class="menu_mobile_share_wrapper"> <span class="jl_hfollow"><?= pll_e('Nous suivre :'); ?></span>
 										<ul class="social_icon_header_top jl_socialcolor">
@@ -57,7 +64,7 @@
 							<div class="main_menu col-md-12">
 								<div class="logo_small_wrapper_table">
 									<div class="logo_small_wrapper">
-										<a class="logo_link" href="http://localhost/entrecieletterre/">
+										<a class="logo_link" href="<?= home_url(); ?>">
 											<img class="jl_logo_n" src="<?= ECT_IMG_URL . 'logo.jpg   '; ?>" alt="Logo" />
 										</a>
 									</div>

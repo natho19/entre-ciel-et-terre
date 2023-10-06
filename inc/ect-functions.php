@@ -93,7 +93,7 @@ add_action('phpmailer_init', 'mailtrap');
 // Add menu zones
 function ect_register_menus() {
 	register_nav_menus([
-		'top-bar' => 'Top menu',
+		'top-menu' => 'Top menu',
 		'main' => 'Menu principal',
 		'useful-links' => 'Liens utiles'
 	]);
