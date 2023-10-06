@@ -99,3 +99,15 @@ function ect_register_menus() {
 	]);
 }
 add_action('init', 'ect_register_menus');
+
+// Add widget zone
+function ect_register_sidebar() {
+	register_sidebar([
+		'id'            => 'footer-useful-links',
+		'name'          => __('Liens utiles'),
+		'description'   => __('Widget pour les liens utiles'),
+		'before_widget' => '<div class="jellywp_about_us_widget_wrapper">',
+		'after_widget'  => '</div>'
+	]);
+}
+add_action('widgets_init', 'ect_register_sidebar');

@@ -19871,7 +19871,8 @@ figure.wp-block-table {
     }
 }
 
-footer .widget .link-list-widget {
+footer .widget .link-list-widget,
+.jellywp_about_us_widget_wrapper ul {
     list-style: none;
     line-height: 2;
 }
