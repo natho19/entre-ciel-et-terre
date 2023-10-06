@@ -1,4 +1,7 @@
-- Terminer toutes les traductions
-- Construire les cards pour les formulaires
-- Finaliser le site
+- Dynamic menu
+- Dynamic top bar menu
+- Dynamic widgets
+- Finaliser les traductions
+- Finaliser les contenus
+- Faire les captures
 - Envoyer les captures

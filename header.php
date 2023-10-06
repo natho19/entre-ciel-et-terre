@@ -62,28 +62,18 @@
 										</a>
 									</div>
 								</div>
-                                <div class="menu-primary-container navigation_wrapper jl_cus_share_mnu">
-									<ul id="mainmenu" class="jl_main_menu">
-										<li class="menu-item current-menu-item current_page_item">
-                                            <a href="http://localhost/entrecieletterre/">Accueil<span class="border-menu"></span></a>
-										</li>
-										<li class="menu-item">
-                                            <a href="http://localhost/entrecieletterre/a-propos/">A propos<span class="border-menu"></span></a>
-										</li>
-										<li class="menu-item">
-                                            <a href="http://localhost/entrecieletterre/category/blog/">Blog<span class="border-menu"></span></a>
-										</li>
-                                        <li class="menu-item">
-                                            <a href="http://localhost/entrecieletterre/category/videos/">Vidéos<span class="border-menu"></span></a>
-										</li>
-                                        <li class="menu-item">
-                                            <a href="http://localhost/entrecieletterre/contact/">Contact<span class="border-menu"></span></a>
-										</li>
-                                        <li class="menu-item">
-                                            <a href="http://localhost/entrecieletterre/rendez-vous/">Rendez-vous<span class="border-menu"></span></a>
-										</li>
-									</ul>
-								</div>
+								<?php
+								wp_nav_menu([
+									'theme_location'  => 'main',
+                                    'depth'           => 1,
+                                    'container'       => 'div',
+                                    'container_class' => 'menu-primary-container navigation_wrapper jl_cus_share_mnu',
+                                    'menu_class'      => 'jl_main_menu',
+                                    'menu_id'         => 'mainmenu',
+                                    'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+                                    'walker'          => new WP_Bootstrap_Navwalker(),
+								]);
+								?>
 								<div class="search_header_menu jl_nav_mobile">
 									<div class="menu_mobile_icons">
 										<div class="jlm_w">
@@ -108,26 +98,17 @@
                 <div id="nav" class="jl_mobile_nav_inner">
                     <div class="menu_mobile_icons mobile_close_icons closed_menu"> <span class="jl_close_wapper"><span class="jl_close_1"></span><span class="jl_close_2"></span></span>
                     </div>
-                    <ul id="mobile_menu_slide" class="menu_moble_slide">
-                        <li class="menu-item current-menu-item current_page_item">
-                            <a href="http://localhost/entrecieletterre/">Accueil<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="http://localhost/entrecieletterre/a-propos/">A propos<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="http://localhost/entrecieletterre/category/blog/">Blog<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="http://localhost/entrecieletterre/category/videos/">Vidéos<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="http://localhost/entrecieletterre/contact/">Contact<span class="border-menu"></span></a>
-                        </li>
-                        <li class="menu-item">
-                            <a href="http://localhost/entrecieletterre/rendez-vous/">Rendez-vous<span class="border-menu"></span></a>
-                        </li>
-                    </ul>
+					<?php
+					wp_nav_menu([
+						'theme_location'  => 'main',
+						'depth'           => 1,
+						'container'       => '',
+						'menu_class'      => 'menu_moble_slide',
+						'menu_id'         => 'mobile_menu_slide',
+						'fallback_cb'     => 'WP_Bootstrap_Navwalker::fallback',
+						'walker'          => new WP_Bootstrap_Navwalker(),
+					]);
+					?>
                 </div>
             </div>
             <div class="search_form_menu_personal">
