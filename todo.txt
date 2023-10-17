@@ -1,7 +1,5 @@
-- Pub ✅
-- Favicon
-- Content
-- Captures
-
-- Dynamic Publicité
+- Dynamic Publicité (pouvoir cliquer sur l'image : rediriger sur l'image ou un lien) ✅
+- Lien vers les réseaux sociaux
 - Vérifier les traductions sur les pages rares (content-none, search...)
+- site.manifest des favicons
+- Card pour les formulaires

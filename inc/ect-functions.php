@@ -6,6 +6,12 @@ define('ECT_IMG_URL', get_template_directory_uri() . '/assets/img/', false);
 // Disable Gutenberg
 add_filter('use_block_editor_for_post', '__return_false');
 
+// Enable classic widget area
+function ect_widget_block_editor() {
+    remove_theme_support('widgets-block-editor');
+}
+add_action('after_setup_theme', 'ect_widget_block_editor');
+
 // Theme support
 function ect_setup() {
     add_theme_support('title-tag');
@@ -105,13 +111,23 @@ function ect_register_menus() {
 }
 add_action('init', 'ect_register_menus');
 
-// Add widget zone
+// Widget zone areas
 function ect_register_sidebar() {
+	// Footer widget zone
 	register_sidebar([
 		'id'            => 'footer-useful-links',
 		'name'          => __('Liens utiles'),
 		'description'   => __('Widget pour les liens utiles'),
 		'before_widget' => '<div class="jellywp_about_us_widget_wrapper">',
+		'after_widget'  => '</div>'
+	]);
+
+	// Advertisement widget zone
+	register_sidebar([
+		'id'            => 'advertisement',
+		'name'          => __('Publicité'),
+		'description'   => __('Widget pour la publicité'),
+		'before_widget' => '<div class="advertisement">',
 		'after_widget'  => '</div>'
 	]);
 }

@@ -6,11 +6,10 @@
                 <div class="widget-title">
                     <h2 class="jl_title_c"><?= pll_e('Publicité'); ?></h2>
                 </div>
-                <div class="advertisement">
-                    <a href="#">
-                        <img src="<?= ECT_IMG_URL . 'pub.jpg' ?>" alt="Publicité">
-                    </a>
-                </div>
+                <!-- Widget advertisement -->
+                <?php if (is_active_sidebar('advertisement')) : ?>
+                    <?php dynamic_sidebar('advertisement'); ?>
+                <?php endif; ?>
             </div>
         </div>
 
