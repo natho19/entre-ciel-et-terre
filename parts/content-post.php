@@ -11,7 +11,9 @@
         <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
         <span class="jl_post_meta">
             <span class="post-date"><i class="jli-pen"></i><?= get_the_date('d/m/Y'); ?></span>
-            <span class="post-read-time"><i class="jli-watch-2"></i>2 Mins</span>
+            <?php if (get_field('read_time')) : ?>
+                <span class="post-read-time"><i class="jli-watch-2"></i><?php the_field('read_time'); ?></span>
+            <?php endif; ?>
         </span>
         <?php the_excerpt(); ?>
     </div>

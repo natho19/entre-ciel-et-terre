@@ -28,6 +28,9 @@ function ect_setup() {
 	pll_register_string('custom_translate', 'Nous suivre');
 	pll_register_string('custom_translate', 'Publicité');
 	pll_register_string('custom_translate', 'Derniers articles');
+	pll_register_string('custom_translate', 'OOPS! Il semblerait que cette page n\'existe pas');
+	pll_register_string('custom_translate', 'Revenir à l\'accueil');
+	pll_register_string('custom_translate', 'OOPS ! Aucun contenu disponible pour le moment');
 }
 add_action('after_setup_theme', 'ect_setup');
 

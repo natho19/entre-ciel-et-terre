@@ -72,7 +72,7 @@
 						<div class="row bottom_footer_menu_text">
 							<div class="col-md-12">
 								<div class="jl_ft_w">
-                                    &copy; Copyright 2023 Entre Ciel Et Terre by <a href="#">Code House</a> and GladiArt
+                                    &copy; Copyright 2023 Entre Ciel Et Terre by <a href="https://www.nakpawu.com/">Code House</a> and <a href="https://instagram.com/gladiart_?igshid=OGQ5ZDc2ODk2ZA==">GladiArt</a>
 								</div>
 							</div>
 						</div>
