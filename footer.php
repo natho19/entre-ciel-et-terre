@@ -52,7 +52,7 @@
 																</a>
 															</li>
 															<li>
-																<a href="#" class="footer-svg-icon" target="_blank">
+																<a href="https://wa.me/12034241012" class="footer-svg-icon" target="_blank">
 																	<img src="<?= ECT_IMG_URL . 'whatsapp.svg'; ?>" alt="Whatsapp">
 																</a>
 															</li>

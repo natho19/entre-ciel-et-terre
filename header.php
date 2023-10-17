@@ -5,11 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!-- Favicon-->
-	<link rel="icon" href="<?= ECT_IMG_URL . '/favicon/android-chrome-512x512.png'; ?>" type="image/x-icon">
-	<link rel="apple-touch-icon" sizes="180x180" href="<?= ECT_IMG_URL . '/favicon/apple-touch-icon.png'; ?>">
-	<link rel="icon" type="image/png" sizes="32x32" href="<?= ECT_IMG_URL . '/favicon/favicon-32x32.png'; ?>">
-	<link rel="icon" type="image/png" sizes="16x16" href="<?= ECT_IMG_URL . '/favicon/favicon-16x16.png'; ?>">
-	<link rel="manifest" href="<?= ECT_IMG_URL . '/favicon/site.webmanifest'; ?>">
+	<link rel="icon" href="<?= ECT_IMG_URL . 'favicon/android-chrome-512x512.png'; ?>" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="<?= ECT_IMG_URL . 'favicon/apple-touch-icon.png'; ?>">
+	<link rel="icon" type="image/png" sizes="32x32" href="<?= ECT_IMG_URL . 'favicon/favicon-32x32.png'; ?>">
+	<link rel="icon" type="image/png" sizes="16x16" href="<?= ECT_IMG_URL . 'favicon/favicon-16x16.png'; ?>">
     <!-- CSS -->
     <?php wp_head(); ?>
 </head>
@@ -50,7 +49,7 @@
 												</a>
 											</li>
 											<li class="header-svg-icon">
-												<a href="#" target="_blank">
+												<a href="https://wa.me/12034241012" target="_blank">
 													<img src="<?= ECT_IMG_URL . 'whatsapp.svg   '; ?>" alt="Whatsapp">
 												</a>
 											</li>
