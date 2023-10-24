@@ -17,18 +17,19 @@
                                         <div class="card card-form">
                                             <img src="<?= esc_url(get_sub_field('form_image')); ?>" class="card-img-top" alt="<?php the_sub_field('form_title'); ?>">
                                             <div class="card-body">
-                                                <h5 class="card-title"><?php the_sub_field('form_title'); ?></h5>
+                                                <h5 class="card-title mb-3"><?php the_sub_field('form_title'); ?></h5>
                                                 <?php if (get_sub_field('form_description')) : ?>
                                                     <p class="card-text"><?php the_sub_field('form_description'); ?></p>
                                                 <?php endif; ?>
                                                 <?php
                                                 $link = get_sub_field('form_link');
                                                 if ($link) :
+                                                    $translate_title = pll_current_language() == 'fr' ? 'Remplir le formulaire' : 'Fill in the form';
                                                     $link_url = $link['url'];
-                                                    $link_title = $link['title'] ? $link['title'] : 'Remplir le formulaire';
+                                                    $link_title = $link['title'] ? $link['title'] : $translate_title;
                                                     $link_target = $link['target'] ? $link['target'] : '_self';
                                                 ?>
-                                                    <a href="<?= esc_url($link_url); ?>" target="<?= esc_attr($link_target); ?>" class="btn btn-primary"><?= esc_html($link_title); ?></a>
+                                                    <a href="<?= esc_url($link_url); ?>" target="<?= esc_attr($link_target); ?>" class><?= esc_html($link_title); ?></a>
                                                 <?php endif; ?>
                                             </div>
                                         </div>

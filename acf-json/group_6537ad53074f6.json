@@ -87,7 +87,7 @@
                     },
                     "default_value": "",
                     "maxlength": "",
-                    "rows": 4,
+                    "rows": 2,
                     "placeholder": "",
                     "new_lines": "",
                     "parent_repeater": "field_6537ad538207a"
@@ -132,5 +132,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1698148042
+    "modified": 1698151372
 }

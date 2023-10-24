@@ -7,7 +7,7 @@
             <div class="col-md-12 page_error_404">
                 <h1 class="big">404</h1>
                 <p class="description"><?= pll_e('OOPS! Il semblerait que cette page n\'existe pas'); ?></p>
-                <a class="link_home404" href="<?= home_url(); ?>"><?= pll_e('Revenir à l\'accueil') ?></a>
+                <a class="link_home404" href="<?= home_url(); ?>"><?= pll_e('Revenir à l\'accueil'); ?></a>
             </div>
         </div>
     </div>
