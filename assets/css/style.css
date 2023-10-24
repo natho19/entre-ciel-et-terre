@@ -19958,7 +19958,8 @@ footer .widget .link-list-widget,
     text-align: center;
 }
 
-.link-area a {
+.link-area a, 
+.card-form a {
     font-weight: 500;
     letter-spacing: -0.025em;
     display: inline-block;
@@ -19974,7 +19975,8 @@ footer .widget .link-list-widget,
     outline: none;
 }
 
-.link-area a:hover {
+.link-area a:hover, 
+.card-form a:hover {
     background: var(--main-color);
     color: #fff !important;
 }

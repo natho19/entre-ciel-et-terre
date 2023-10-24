@@ -1,5 +1,3 @@
-- Dynamic Publicité (pouvoir cliquer sur l'image : rediriger sur l'image ou un lien) ✅
-- site.manifest des favicons ✅
-- Vérifier les traductions sur les pages rares (content-none, search...) ✅
 - Card pour les formulaires
 - Lien vers les réseaux sociaux : facebook, instagram, twitter, linkedin
+- Code review
