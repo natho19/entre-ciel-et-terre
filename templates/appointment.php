@@ -10,28 +10,32 @@
             <div class="col-md-8 loop-large-post" id="content">
                 <div class="widget_container content_page">
                     <div class="post-2963 post type-post status-publish format-standard has-post-thumbnail hentry category-science tag-gaming" id="post-2963">
-                        <div class="row">
-                            <div class="col-md-6 mb-4">
-                                <div class="card card-form">
-                                    <img src="<?= ECT_IMG_URL . '900x600.png' ?>" class="card-img-top" alt="Card image">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Remplir le formulaire</a>
+                        <?php if (have_rows('forms')) : ?>
+                            <div class="row">
+                                <?php while (have_rows('forms')) : the_row(); ?>
+                                    <div class="col-md-6 mb-4">
+                                        <div class="card card-form">
+                                            <img src="<?= esc_url(get_sub_field('form_image')); ?>" class="card-img-top" alt="<?php the_sub_field('form_title'); ?>">
+                                            <div class="card-body">
+                                                <h5 class="card-title"><?php the_sub_field('form_title'); ?></h5>
+                                                <?php if (get_sub_field('form_description')) : ?>
+                                                    <p class="card-text"><?php the_sub_field('form_description'); ?></p>
+                                                <?php endif; ?>
+                                                <?php
+                                                $link = get_sub_field('form_link');
+                                                if ($link) :
+                                                    $link_url = $link['url'];
+                                                    $link_title = $link['title'] ? $link['title'] : 'Remplir le formulaire';
+                                                    $link_target = $link['target'] ? $link['target'] : '_self';
+                                                ?>
+                                                    <a href="<?= esc_url($link_url); ?>" target="<?= esc_attr($link_target); ?>" class="btn btn-primary"><?= esc_html($link_title); ?></a>
+                                                <?php endif; ?>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                <?php endwhile; ?>
                             </div>
-                            <div class="col-md-6 mb-4">
-                                <div class="card card-form">
-                                    <img src="<?= ECT_IMG_URL . '900x600.png' ?>" class="card-img-top" alt="Card image">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Remplir le formulaire</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php endif; ?>
                     </div>
                 </div>
             </div>
