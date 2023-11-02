@@ -18,6 +18,7 @@ function ect_social_sharing($content)
         $facebookURL = 'https://www.facebook.com/sharer/sharer.php?u=' . $URL;
         $twitterURL = 'https://twitter.com/intent/tweet?text=' . $title . '&amp;url=' . $URL . '&amp;via=' . $site_title;
         $linkedInURL = 'https://www.linkedin.com/shareArticle?mini=true&url=' . $URL . '&amp;title=' . $title;
+        // $newlinkedInURL = 'https://www.linkedin.com/sharing/share-offsite/?url=' . $URL;
 
         // Add sharing button at the end of post/page content
         $content .= '</div>';

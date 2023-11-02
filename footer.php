@@ -84,7 +84,7 @@
 			</div>
 		</div>
 	</div>
-    <!-- Emplacement des fichiers JS -->
+    <!-- JS files location -->
     <?php wp_footer(); ?>
 </body>
 

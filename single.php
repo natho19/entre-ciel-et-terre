@@ -3,9 +3,9 @@
 <section id="content_main" class="clearfix jl_spost">
     <div class="container">
         <div class="row main_content">
-            <div class="col-md-8  loop-large-post" id="content">
+            <div class="col-md-8 loop-large-post" id="content">
                 <div class="widget_container content_page">
-                    <!-- Article -->
+                    <!-- Post -->
                     <div class="post-2838 post type-post status-publish format-standard has-post-thumbnail hentry category-sports tag-gaming" id="post-2838">
                         <div class="single_section_content box blog_large_post_style">
                             <div class="jl_single_style2">
@@ -31,16 +31,16 @@
 
                             <?php $content = get_post()->post_content; if (!empty($content)) : ?>
                                 <div class="post_content_w">
-                                    <!-- Contenu -->
+                                    <!-- Content -->
                                     <div class="post_content jl_content">
                                         <?php the_content(); ?>
-                                    <!-- Fermeture de la <div> avec ect-social-sharing.php -->
+                                    <!-- Closing the <div> with the social network sharing system -->
                                 </div>
                             <?php endif; ?>
 
                             <div class="clearfix"></div>
 
-                            <!-- Articles similaires -->
+                            <!-- Similar posts -->
                             <?php
                             $category = get_field('video_link') ? 'videos' : 'blog';
                             $similar_posts = ect_get_objects('post', 2, $category, [get_the_ID()], 'rand');
@@ -75,9 +75,10 @@
                                     </div>
                                 </div>
                             <?php endif; wp_reset_postdata(); ?>
+                            <!-- End similar posts -->
                         </div>
                     </div>
-                    <!-- Fin de l'article -->
+                    <!-- End post -->
                 </div>
             </div>
             <?php get_template_part('parts/page', 'sidebar'); ?>
