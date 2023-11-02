@@ -9,7 +9,7 @@
         <div class="row main_content">
             <div class="col-md-8 loop-large-post" id="content">
                 <div class="widget_container content_page">
-                    <!-- Informations de contact -->
+                    <!-- Contact Informations -->
                     <?php if (have_rows('contacts')) : ?>
                         <div class="contact-informations">
                             <div class="row contact-card">
@@ -44,7 +44,7 @@
                         </div>
                     <?php endif; ?>
 
-                    <!-- Formulaire de contact -->
+                    <!-- Contact Form -->
                     <div class="contact-form">
                         <h2><?= pll_e('Formulaire de contact'); ?></h2>
                         <?php if (pll_current_language() == 'fr') : ?>

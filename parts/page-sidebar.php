@@ -1,6 +1,6 @@
 <div class="col-md-4" id="sidebar">
     <div class="jl_sidebar_w">
-        <!-- Publicité -->
+        <!-- Advertisement -->
         <div id="sprasa_ads300x250_widget-2" class="widget jellywp_ads300x250_widget">
             <div class="widget_jl_wrapper ads_widget_container">
                 <div class="widget-title">
@@ -13,7 +13,7 @@
             </div>
         </div>
 
-        <!-- Derniers posts -->
+        <!-- Last posts -->
         <?php
         $last_posts = ect_get_objects('post', 3);
         if ($last_posts->have_posts()) : ?>

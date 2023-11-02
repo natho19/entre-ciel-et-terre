@@ -15,4 +15,4 @@ add_filter('acf/settings/dir', 'acf_settings_dir');
 include_once( get_stylesheet_directory() . '/inc/third-party/acf/acf.php' );
 
 // Disable ACF in back office
-// add_filter('acf/settings/show_admin', '__return_false');
+add_filter('acf/settings/show_admin', '__return_false');

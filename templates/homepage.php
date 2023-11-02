@@ -44,7 +44,7 @@
         </section>
     <?php endif; ?>
 
-    <!-- Actualités -->
+    <!-- News -->
     <section class="home_section3">
         <div class="container">
             <div class="row">
@@ -118,7 +118,7 @@
         </div>
     </section>
 
-    <!-- Vidéos -->
+    <!-- Videos -->
     <section class="home_section1">
         <div class="container">
             <div class="row">
@@ -189,7 +189,7 @@
         </div>
     </section>
 
-    <!-- Derniers articles -->
+    <!-- Last posts -->
     <?php
     $nb = get_field('last_posts_number');
     $last_posts = ect_get_objects('post', $nb, 'blog');
